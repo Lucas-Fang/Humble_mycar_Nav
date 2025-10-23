@@ -1,0 +1,34 @@
+[0.012s] Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/serial_pkg -- -j4 -l4
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target odom[0m
+[0.078s] [ 33%] Built target my_serial_lib
+[0.098s] [ 50%] [32mBuilding CXX object CMakeFiles/odom.dir/src/odom.cpp.o[0m
+[0.100s] [35m[1mConsolidate compiler generated dependencies of target get_imu_ros2[0m
+[0.123s] [ 83%] Built target get_imu_ros2
+[9.034s] [100%] [32m[1mLinking CXX executable odom[0m
+[9.619s] [100%] Built target odom
+[9.630s] Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/serial_pkg -- -j4 -l4
+[9.641s] Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/serial_pkg
+[9.648s] -- Install configuration: ""
+[9.649s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/libmy_serial_lib.a
+[9.649s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/get_imu_ros2
+[9.649s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/odom
+[9.653s] -- Set runtime path of "/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/odom" to ""
+[9.653s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/include/
+[9.653s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/include//serial_pkg
+[9.653s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/include//serial_pkg/crc16.h
+[9.653s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/ament_index/resource_index/package_run_dependencies/serial_pkg
+[9.653s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/ament_index/resource_index/parent_prefix_path/serial_pkg
+[9.653s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/environment/ament_prefix_path.sh
+[9.654s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/environment/ament_prefix_path.dsv
+[9.654s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/environment/path.sh
+[9.654s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/environment/path.dsv
+[9.654s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/local_setup.bash
+[9.654s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/local_setup.sh
+[9.654s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/local_setup.zsh
+[9.654s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/local_setup.dsv
+[9.654s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/package.dsv
+[9.654s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/ament_index/resource_index/packages/serial_pkg
+[9.654s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/cmake/serial_pkgConfig.cmake
+[9.654s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/cmake/serial_pkgConfig-version.cmake
+[9.654s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/package.xml
+[9.656s] Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/serial_pkg

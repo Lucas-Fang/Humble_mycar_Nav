@@ -1,0 +1,70 @@
+[0.013s] Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg': CMAKE_PREFIX_PATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/home/lucas-fang/ros2_Nav_ws/install/serial_pkg:/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/serial_pkg -- -j4 -l4
+[0.035s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.152s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.178s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.180s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.185s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.194s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.206s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.233s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.234s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.325s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.370s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.382s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.398s] -- Found serial_driver: 1.2.0 (/opt/ros/humble/share/serial_driver/cmake)
+[0.414s] -- Found asio_cmake_module: 1.2.0 (/opt/ros/humble/share/asio_cmake_module/cmake)
+[0.451s] -- Found tf2: 0.25.13 (/opt/ros/humble/share/tf2/cmake)
+[0.454s] -- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.510s] -- Found base_interfaces: 0.0.0 (/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake)
+[0.519s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.550s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.613s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.614s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lucas-fang/ros2_Nav_ws/src/serial_pkg/include>
+[0.614s] -- Configured cppcheck exclude dirs and/or files: 
+[0.614s] -- Added test 'lint_cmake' to check CMake code style
+[0.615s] -- Added test 'uncrustify' to check C / C++ code style
+[0.615s] -- Configured uncrustify additional arguments: 
+[0.616s] -- Added test 'xmllint' to check XML markup files
+[0.616s] -- Configuring done
+[0.666s] -- Generating done
+[0.677s] -- Build files have been written to: /home/lucas-fang/ros2_Nav_ws/build/serial_pkg
+[0.703s] [35m[1mConsolidate compiler generated dependencies of target my_serial_lib[0m
+[0.703s] [35m[1mConsolidate compiler generated dependencies of target odom[0m
+[0.714s] [ 25%] Built target my_serial_lib
+[0.727s] [ 37%] [32mBuilding CXX object CMakeFiles/odom.dir/src/odom.cpp.o[0m
+[0.732s] [35m[1mConsolidate compiler generated dependencies of target get_imu_ros2[0m
+[0.732s] [35m[1mConsolidate compiler generated dependencies of target chat_stm32[0m
+[0.768s] [ 62%] Built target get_imu_ros2
+[0.773s] [ 75%] [32mBuilding CXX object CMakeFiles/chat_stm32.dir/src/chat_stm32.cpp.o[0m
+[10.352s] [ 87%] [32m[1mLinking CXX executable chat_stm32[0m
+[10.927s] [ 87%] Built target chat_stm32
+[11.500s] [100%] [32m[1mLinking CXX executable odom[0m
+[12.190s] [100%] Built target odom
+[12.200s] Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg' returned '0': CMAKE_PREFIX_PATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/home/lucas-fang/ros2_Nav_ws/install/serial_pkg:/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/serial_pkg -- -j4 -l4
+[12.209s] Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg': CMAKE_PREFIX_PATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/home/lucas-fang/ros2_Nav_ws/install/serial_pkg:/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros:/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/serial_pkg
+[12.216s] -- Install configuration: ""
+[12.216s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/libmy_serial_lib.a
+[12.216s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/get_imu_ros2
+[12.217s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/odom
+[12.222s] -- Set runtime path of "/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/odom" to ""
+[12.223s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/chat_stm32
+[12.227s] -- Set runtime path of "/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/chat_stm32" to ""
+[12.227s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/include/
+[12.227s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/include//serial_pkg
+[12.227s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/include//serial_pkg/crc16.h
+[12.227s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/ament_index/resource_index/package_run_dependencies/serial_pkg
+[12.227s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/ament_index/resource_index/parent_prefix_path/serial_pkg
+[12.227s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/environment/ament_prefix_path.sh
+[12.227s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/environment/ament_prefix_path.dsv
+[12.227s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/environment/path.sh
+[12.228s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/environment/path.dsv
+[12.228s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/local_setup.bash
+[12.228s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/local_setup.sh
+[12.228s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/local_setup.zsh
+[12.228s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/local_setup.dsv
+[12.228s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/package.dsv
+[12.228s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/ament_index/resource_index/packages/serial_pkg
+[12.228s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/cmake/serial_pkgConfig.cmake
+[12.228s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/cmake/serial_pkgConfig-version.cmake
+[12.228s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/package.xml
+[12.230s] Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg' returned '0': CMAKE_PREFIX_PATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/home/lucas-fang/ros2_Nav_ws/install/serial_pkg:/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros:/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/serial_pkg

@@ -1,0 +1,151 @@
+[0.000000] (-) TimerEvent: {}
+[0.000489] (-) JobUnselected: {'identifier': 'base_interfaces'}
+[0.000650] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.000679] (serial_pkg) JobQueued: {'identifier': 'serial_pkg', 'dependencies': OrderedDict([('base_interfaces', '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces')])}
+[0.000709] (serial_pkg) JobStarted: {'identifier': 'serial_pkg'}
+[0.009549] (serial_pkg) JobProgress: {'identifier': 'serial_pkg', 'progress': 'cmake'}
+[0.010281] (serial_pkg) JobProgress: {'identifier': 'serial_pkg', 'progress': 'build'}
+[0.011057] (serial_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg', '--', '-j4', '-l4'], 'cwd': '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lucas-fang'), ('SSH_CLIENT', '192.168.70.195 45716 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/lucas-fang/.vscode-server/cli/servers/Stable-f220831ea2d946c0dcb0f3eaa480eb435a2c1260/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/lucas-fang/.vscode-server/cli/servers/Stable-f220831ea2d946c0dcb0f3eaa480eb435a2c1260/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lucas-fang'), ('TERM_PROGRAM_VERSION', '1.104.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-17915738-e200-4f29-b89d-f8ee3c5734f0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/lucas-fang/.vscode-server/cli/servers/Stable-f220831ea2d946c0dcb0f3eaa480eb435a2c1260/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/lucas-fang/.vscode-server/cli/servers/Stable-f220831ea2d946c0dcb0f3eaa480eb435a2c1260/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/lucas-fang/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lucas-fang'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '422'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lucas-fang/.vscode-server/cli/servers/Stable-f220831ea2d946c0dcb0f3eaa480eb435a2c1260/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/lucas-fang/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/lucas-fang/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lucas-fang/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-d67a174d51a1057f.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/lucas-fang/.vscode-server/data/User/workspaceStorage/47b21b766c4e2b89697148b3263902fc/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-71a3b954ea.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/opt/ros/humble'), ('CRASHDIR', '/etc/ShellCrash'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.70.195 45716 192.168.70.123 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.064919] (serial_pkg) StdoutLine: {'line': b'[ 25%] Built target my_serial_lib\n'}
+[0.072811] (serial_pkg) StdoutLine: {'line': b'[ 50%] Built target odom\n'}
+[0.083545] (serial_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target chat_stm32\x1b[0m\n'}
+[0.099729] (-) TimerEvent: {}
+[0.100582] (serial_pkg) StdoutLine: {'line': b'[ 75%] Built target get_imu_ros2\n'}
+[0.108712] (serial_pkg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/chat_stm32.dir/src/chat_stm32.cpp.o\x1b[0m\n'}
+[0.199831] (-) TimerEvent: {}
+[0.300131] (-) TimerEvent: {}
+[0.400442] (-) TimerEvent: {}
+[0.500724] (-) TimerEvent: {}
+[0.601020] (-) TimerEvent: {}
+[0.701355] (-) TimerEvent: {}
+[0.801661] (-) TimerEvent: {}
+[0.901958] (-) TimerEvent: {}
+[1.002268] (-) TimerEvent: {}
+[1.102557] (-) TimerEvent: {}
+[1.202844] (-) TimerEvent: {}
+[1.303169] (-) TimerEvent: {}
+[1.403497] (-) TimerEvent: {}
+[1.503829] (-) TimerEvent: {}
+[1.604167] (-) TimerEvent: {}
+[1.704476] (-) TimerEvent: {}
+[1.804771] (-) TimerEvent: {}
+[1.905098] (-) TimerEvent: {}
+[2.005410] (-) TimerEvent: {}
+[2.105707] (-) TimerEvent: {}
+[2.206012] (-) TimerEvent: {}
+[2.306337] (-) TimerEvent: {}
+[2.406653] (-) TimerEvent: {}
+[2.506963] (-) TimerEvent: {}
+[2.607272] (-) TimerEvent: {}
+[2.707574] (-) TimerEvent: {}
+[2.807871] (-) TimerEvent: {}
+[2.908166] (-) TimerEvent: {}
+[3.008481] (-) TimerEvent: {}
+[3.108781] (-) TimerEvent: {}
+[3.209080] (-) TimerEvent: {}
+[3.309406] (-) TimerEvent: {}
+[3.409700] (-) TimerEvent: {}
+[3.510010] (-) TimerEvent: {}
+[3.610322] (-) TimerEvent: {}
+[3.710607] (-) TimerEvent: {}
+[3.810912] (-) TimerEvent: {}
+[3.911218] (-) TimerEvent: {}
+[4.011511] (-) TimerEvent: {}
+[4.111799] (-) TimerEvent: {}
+[4.212186] (-) TimerEvent: {}
+[4.312515] (-) TimerEvent: {}
+[4.412824] (-) TimerEvent: {}
+[4.513130] (-) TimerEvent: {}
+[4.613426] (-) TimerEvent: {}
+[4.713711] (-) TimerEvent: {}
+[4.813999] (-) TimerEvent: {}
+[4.914299] (-) TimerEvent: {}
+[5.014602] (-) TimerEvent: {}
+[5.114915] (-) TimerEvent: {}
+[5.215278] (-) TimerEvent: {}
+[5.315571] (-) TimerEvent: {}
+[5.415869] (-) TimerEvent: {}
+[5.516167] (-) TimerEvent: {}
+[5.616484] (-) TimerEvent: {}
+[5.716772] (-) TimerEvent: {}
+[5.817085] (-) TimerEvent: {}
+[5.917445] (-) TimerEvent: {}
+[6.017748] (-) TimerEvent: {}
+[6.118045] (-) TimerEvent: {}
+[6.218407] (-) TimerEvent: {}
+[6.318715] (-) TimerEvent: {}
+[6.419034] (-) TimerEvent: {}
+[6.519383] (-) TimerEvent: {}
+[6.619662] (-) TimerEvent: {}
+[6.719950] (-) TimerEvent: {}
+[6.820260] (-) TimerEvent: {}
+[6.920619] (-) TimerEvent: {}
+[7.020900] (-) TimerEvent: {}
+[7.121163] (-) TimerEvent: {}
+[7.221469] (-) TimerEvent: {}
+[7.321767] (-) TimerEvent: {}
+[7.422057] (-) TimerEvent: {}
+[7.522358] (-) TimerEvent: {}
+[7.622638] (-) TimerEvent: {}
+[7.722929] (-) TimerEvent: {}
+[7.823231] (-) TimerEvent: {}
+[7.923520] (-) TimerEvent: {}
+[8.023805] (-) TimerEvent: {}
+[8.124101] (-) TimerEvent: {}
+[8.224405] (-) TimerEvent: {}
+[8.324689] (-) TimerEvent: {}
+[8.424974] (-) TimerEvent: {}
+[8.525281] (-) TimerEvent: {}
+[8.625591] (-) TimerEvent: {}
+[8.725872] (-) TimerEvent: {}
+[8.826159] (-) TimerEvent: {}
+[8.926520] (-) TimerEvent: {}
+[9.026809] (-) TimerEvent: {}
+[9.127106] (-) TimerEvent: {}
+[9.227412] (-) TimerEvent: {}
+[9.327721] (-) TimerEvent: {}
+[9.428011] (-) TimerEvent: {}
+[9.528308] (-) TimerEvent: {}
+[9.628609] (-) TimerEvent: {}
+[9.728900] (-) TimerEvent: {}
+[9.829216] (-) TimerEvent: {}
+[9.929643] (-) TimerEvent: {}
+[10.030053] (-) TimerEvent: {}
+[10.037520] (serial_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable chat_stm32\x1b[0m\n'}
+[10.130170] (-) TimerEvent: {}
+[10.230587] (-) TimerEvent: {}
+[10.331789] (-) TimerEvent: {}
+[10.432169] (-) TimerEvent: {}
+[10.532453] (-) TimerEvent: {}
+[10.632730] (-) TimerEvent: {}
+[10.645982] (serial_pkg) StdoutLine: {'line': b'[100%] Built target chat_stm32\n'}
+[10.656953] (serial_pkg) CommandEnded: {'returncode': 0}
+[10.657619] (serial_pkg) JobProgress: {'identifier': 'serial_pkg', 'progress': 'install'}
+[10.666103] (serial_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg'], 'cwd': '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lucas-fang'), ('SSH_CLIENT', '192.168.70.195 45716 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/lucas-fang/.vscode-server/cli/servers/Stable-f220831ea2d946c0dcb0f3eaa480eb435a2c1260/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/lucas-fang/.vscode-server/cli/servers/Stable-f220831ea2d946c0dcb0f3eaa480eb435a2c1260/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lucas-fang'), ('TERM_PROGRAM_VERSION', '1.104.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-17915738-e200-4f29-b89d-f8ee3c5734f0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/lucas-fang/.vscode-server/cli/servers/Stable-f220831ea2d946c0dcb0f3eaa480eb435a2c1260/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/lucas-fang/.vscode-server/cli/servers/Stable-f220831ea2d946c0dcb0f3eaa480eb435a2c1260/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/lucas-fang/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lucas-fang'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '422'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lucas-fang/.vscode-server/cli/servers/Stable-f220831ea2d946c0dcb0f3eaa480eb435a2c1260/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/lucas-fang/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/lucas-fang/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lucas-fang/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-d67a174d51a1057f.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/lucas-fang/.vscode-server/data/User/workspaceStorage/47b21b766c4e2b89697148b3263902fc/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-71a3b954ea.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/opt/ros/humble'), ('CRASHDIR', '/etc/ShellCrash'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.70.195 45716 192.168.70.123 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/opt/ros/humble')]), 'shell': False}
+[10.673988] (serial_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.674227] (serial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/libmy_serial_lib.a\n'}
+[10.674407] (serial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/get_imu_ros2\n'}
+[10.674763] (serial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/odom\n'}
+[10.675049] (serial_pkg) StdoutLine: {'line': b'-- Installing: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/chat_stm32\n'}
+[10.679401] (serial_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/chat_stm32" to ""\n'}
+[10.679686] (serial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/include/\n'}
+[10.679862] (serial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/include//serial_pkg\n'}
+[10.679968] (serial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/include//serial_pkg/crc16.h\n'}
+[10.680051] (serial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/ament_index/resource_index/package_run_dependencies/serial_pkg\n'}
+[10.680176] (serial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/ament_index/resource_index/parent_prefix_path/serial_pkg\n'}
+[10.680289] (serial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/environment/ament_prefix_path.sh\n'}
+[10.680377] (serial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/environment/ament_prefix_path.dsv\n'}
+[10.680481] (serial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/environment/path.sh\n'}
+[10.680559] (serial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/environment/path.dsv\n'}
+[10.680636] (serial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/local_setup.bash\n'}
+[10.680709] (serial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/local_setup.sh\n'}
+[10.680783] (serial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/local_setup.zsh\n'}
+[10.680855] (serial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/local_setup.dsv\n'}
+[10.680928] (serial_pkg) StdoutLine: {'line': b'-- Installing: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/package.dsv\n'}
+[10.681009] (serial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/ament_index/resource_index/packages/serial_pkg\n'}
+[10.681081] (serial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/cmake/serial_pkgConfig.cmake\n'}
+[10.681172] (serial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/cmake/serial_pkgConfig-version.cmake\n'}
+[10.681251] (serial_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/package.xml\n'}
+[10.681917] (serial_pkg) CommandEnded: {'returncode': 0}
+[10.700547] (serial_pkg) JobEnded: {'identifier': 'serial_pkg', 'rc': 0}
+[10.701218] (-) EventReactorShutdown: {}

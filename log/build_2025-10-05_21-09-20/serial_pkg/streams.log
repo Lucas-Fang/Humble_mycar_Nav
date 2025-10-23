@@ -1,0 +1,42 @@
+[0.013s] Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg': CMAKE_PREFIX_PATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/home/lucas-fang/ros2_Nav_ws/install/serial_pkg:/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/serial_pkg -- -j4 -l4
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target odom[0m
+[0.059s] [ 25%] Built target my_serial_lib
+[0.073s] [ 37%] [32mBuilding CXX object CMakeFiles/odom.dir/src/odom.cpp.o[0m
+[0.077s] [35m[1mConsolidate compiler generated dependencies of target chat_stm32[0m
+[0.093s] [ 50%] [32mBuilding CXX object CMakeFiles/get_imu_ros2.dir/src/get_imu_ros2.cpp.o[0m
+[0.100s] [ 62%] [32mBuilding CXX object CMakeFiles/chat_stm32.dir/src/chat_stm32.cpp.o[0m
+[7.005s] [ 75%] [32m[1mLinking CXX executable get_imu_ros2[0m
+[7.456s] [ 75%] Built target get_imu_ros2
+[10.695s] [ 87%] [32m[1mLinking CXX executable chat_stm32[0m
+[11.268s] [ 87%] Built target chat_stm32
+[12.650s] [100%] [32m[1mLinking CXX executable odom[0m
+[13.387s] [100%] Built target odom
+[13.397s] Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg' returned '0': CMAKE_PREFIX_PATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/home/lucas-fang/ros2_Nav_ws/install/serial_pkg:/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/serial_pkg -- -j4 -l4
+[13.406s] Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg': CMAKE_PREFIX_PATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/home/lucas-fang/ros2_Nav_ws/install/serial_pkg:/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros:/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/serial_pkg
+[13.414s] -- Install configuration: ""
+[13.414s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/libmy_serial_lib.a
+[13.414s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/get_imu_ros2
+[13.416s] -- Set runtime path of "/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/get_imu_ros2" to ""
+[13.416s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/odom
+[13.422s] -- Set runtime path of "/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/odom" to ""
+[13.422s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/chat_stm32
+[13.426s] -- Set runtime path of "/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/chat_stm32" to ""
+[13.426s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/include/
+[13.426s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/include//serial_pkg
+[13.426s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/include//serial_pkg/crc16.h
+[13.427s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/ament_index/resource_index/package_run_dependencies/serial_pkg
+[13.427s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/ament_index/resource_index/parent_prefix_path/serial_pkg
+[13.427s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/environment/ament_prefix_path.sh
+[13.427s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/environment/ament_prefix_path.dsv
+[13.427s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/environment/path.sh
+[13.427s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/environment/path.dsv
+[13.427s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/local_setup.bash
+[13.427s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/local_setup.sh
+[13.427s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/local_setup.zsh
+[13.427s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/local_setup.dsv
+[13.427s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/package.dsv
+[13.428s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/ament_index/resource_index/packages/serial_pkg
+[13.428s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/cmake/serial_pkgConfig.cmake
+[13.428s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/cmake/serial_pkgConfig-version.cmake
+[13.428s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/package.xml
+[13.429s] Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg' returned '0': CMAKE_PREFIX_PATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/home/lucas-fang/ros2_Nav_ws/install/serial_pkg:/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros:/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/serial_pkg

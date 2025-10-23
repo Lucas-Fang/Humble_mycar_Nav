@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000336] (-) JobUnselected: {'identifier': 'base_interfaces'}
+[0.000369] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.000427] (-) JobUnselected: {'identifier': 'serial_pkg'}
+[0.000600] (-) EventReactorShutdown: {}

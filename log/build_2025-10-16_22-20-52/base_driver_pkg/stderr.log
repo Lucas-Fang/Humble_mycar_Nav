@@ -1,0 +1,11 @@
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/pub_cmd_vel_to_classic.dir/build.make:248: pub_cmd_vel_to_classic] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/pub_cmd_vel_to_classic.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/lucas-fang/ros2_Nav_ws/src/base_driver_pkg/src/stm32_node.cpp:[m[K In lambda function:
+[01m[K/home/lucas-fang/ros2_Nav_ws/src/base_driver_pkg/src/stm32_node.cpp:101:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  101 |     port->async_receive([this](const std::vector<uint8_t> &data,[01;35m[Kconst size_t &size[m[K)
+      |                                                                 [01;35m[K~~~~~~~~~~~~~~^~~~[m[K
+gmake: *** [Makefile:146: all] Error 2

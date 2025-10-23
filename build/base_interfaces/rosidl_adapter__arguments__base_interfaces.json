@@ -1,0 +1,7 @@
+{
+  "package_name": "base_interfaces",
+  "non_idl_tuples": [
+    "/home/lucas-fang/ros2_Nav_ws/src/base_interfaces:msg/Imu.msg",
+    "/home/lucas-fang/ros2_Nav_ws/src/base_interfaces:msg/Robot.msg"
+  ]
+}

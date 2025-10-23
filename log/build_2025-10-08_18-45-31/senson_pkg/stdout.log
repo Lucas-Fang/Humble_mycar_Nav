@@ -1,0 +1,4 @@
+[ 50%] Built target my_serial_lib
+[35m[1mConsolidate compiler generated dependencies of target imu_node[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/imu_node.dir/src/imu_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable imu_node[0m

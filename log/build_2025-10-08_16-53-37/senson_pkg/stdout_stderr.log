@@ -1,0 +1,9 @@
+[ 75%] [32mBuilding CXX object CMakeFiles/crc16.dir/src/crc16.cpp.o[0m
+[ 75%] Built target imu_node
+[01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/crc16.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Ksenson_pkg/crc16.h: No such file or directory
+    1 | #include [01;31m[K"senson_pkg/crc16.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/crc16.dir/build.make:76: CMakeFiles/crc16.dir/src/crc16.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/crc16.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

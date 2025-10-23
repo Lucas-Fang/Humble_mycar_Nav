@@ -1,0 +1,88 @@
+[0.011s] Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/senson_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/senson_pkg -- -j4 -l4
+[0.057s] [ 50%] Built target my_serial_lib
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target imu_node[0m
+[0.097s] [ 75%] [32mBuilding CXX object CMakeFiles/imu_node.dir/src/imu_node.cpp.o[0m
+[2.896s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:269:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[2.896s]   269 | }
+[2.896s]       |  [01;31m[K^[m[K
+[2.896s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:34:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[2.896s]    34 | [01;36m[K{[m[K
+[2.896s]       | [01;36m[K^[m[K
+[2.904s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:[m[K In constructor ‘[01m[KSerial_Node::Serial_Node()[m[K’:
+[2.904s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:39:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu_pub_[m[K’ was not declared in this scope
+[2.904s]    39 |     [01;31m[Kimu_pub_[m[K = this->create_publisher<sensor_msgs::msg::Imu>("imu/data", 10);
+[2.904s]       |     [01;31m[K^~~~~~~~[m[K
+[2.916s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:57:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kio_context_[m[K’ was not declared in this scope; did you mean ‘[01m[KIoContext[m[K’?
+[2.916s]    57 |       [01;31m[Kio_context_[m[K = std::make_shared<drivers::common::IoContext>(1);
+[2.916s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[2.917s]       |       [32m[KIoContext[m[K
+[2.928s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:59:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_driver_[m[K’ was not declared in this scope
+[2.928s]    59 |       [01;31m[Kserial_driver_[m[K = std::make_shared<drivers::serial_driver::SerialDriver>(*io_context_);
+[2.928s]       |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.939s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:[m[K In member function ‘[01m[Kvoid Serial_Node::check_and_connect()[m[K’:
+[2.939s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:88:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_driver_[m[K’ was not declared in this scope
+[2.939s]    88 |     if ([01;31m[Kserial_driver_[m[K && serial_driver_->port()->is_open()) {
+[2.940s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.949s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:117:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kio_context_[m[K’ was not declared in this scope; did you mean ‘[01m[KIoContext[m[K’?
+[2.949s]   117 |       [01;31m[Kio_context_[m[K = std::make_shared<drivers::common::IoContext>(1);
+[2.949s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[2.949s]       |       [32m[KIoContext[m[K
+[2.958s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:118:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_driver_[m[K’ was not declared in this scope
+[2.959s]   118 |       [01;31m[Kserial_driver_[m[K = std::make_shared<drivers::serial_driver::SerialDriver>(*io_context_);
+[2.959s]       |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.969s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:133:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_driver_[m[K’ was not declared in this scope
+[2.969s]   133 |       [01;31m[Kserial_driver_[m[K.reset();
+[2.969s]       |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.978s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:[m[K In member function ‘[01m[Kvoid Serial_Node::async_receive_message()[m[K’:
+[2.979s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:140:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kserial_driver_[m[K’ was not declared in this scope
+[2.979s]   140 |     auto port = [01;31m[Kserial_driver_[m[K->port();
+[2.979s]       |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.987s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:[m[K In lambda function:
+[2.987s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:144:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krecv_buffer_[m[K’ was not declared in this scope
+[2.987s]   144 |         [01;31m[Krecv_buffer_[m[K.insert(recv_buffer_.end(), data.begin(), data.begin() + size);
+[2.987s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[2.995s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:[m[K In member function ‘[01m[Kvoid Serial_Node::parse_buffer()[m[K’:
+[2.995s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:154:12:[m[K [01;31m[Kerror: [m[K‘[01m[Krecv_buffer_[m[K’ was not declared in this scope
+[2.995s]   154 |     while ([01;31m[Krecv_buffer_[m[K.size() >= 19) { // 至少一帧
+[2.995s]       |            [01;31m[K^~~~~~~~~~~~[m[K
+[3.000s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:166:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ was not declared in this scope
+[3.000s]   166 |             std::memcpy(&[01;31m[Kq[m[K.x, &frame[4], 4);
+[3.000s]       |                          [01;31m[K^[m[K
+[3.001s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:171:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktf_q[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.001s]   171 |             tf2::Quaternion [01;35m[Ktf_q[m[K(q.x, q.y, q.z, q.w);
+[3.001s]       |                             [01;35m[K^~~~[m[K
+[3.001s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:190:30:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > frame[m[K’
+[3.001s]   190 |         std::vector<uint8_t> [01;31m[Kframe[m[K(recv_buffer_.begin(), recv_buffer_.begin() + 19);
+[3.001s]       |                              [01;31m[K^~~~~[m[K
+[3.001s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:161:32:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector<unsigned char, std::allocator<unsigned char> > frame[m[K’ previously declared here
+[3.001s]   161 |           std::vector<uint8_t> [01;36m[Kframe[m[K(recv_buffer_.begin(), recv_buffer_.begin() + 23);
+[3.001s]       |                                [01;36m[K^~~~~[m[K
+[3.001s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:193:18:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kuint16_t crc_in_frame[m[K’
+[3.002s]   193 |         uint16_t [01;31m[Kcrc_in_frame[m[K = (uint16_t)frame[16] | ((uint16_t)frame[17] << 8);
+[3.002s]       |                  [01;31m[K^~~~~~~~~~~~[m[K
+[3.002s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:162:20:[m[K [01;36m[Knote: [m[K‘[01m[Kuint16_t crc_in_frame[m[K’ previously declared here
+[3.002s]   162 |           uint16_t [01;36m[Kcrc_in_frame[m[K = (uint16_t)frame[20] | ((uint16_t)frame[21] << 8);
+[3.002s]       |                    [01;36m[K^~~~~~~~~~~~[m[K
+[3.002s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:194:18:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kuint16_t crc_calc[m[K’
+[3.002s]   194 |         uint16_t [01;31m[Kcrc_calc[m[K = imu_driver::Get_CRC16(frame.data(), 16);
+[3.002s]       |                  [01;31m[K^~~~~~~~[m[K
+[3.002s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:163:20:[m[K [01;36m[Knote: [m[K‘[01m[Kuint16_t crc_calc[m[K’ previously declared here
+[3.002s]   163 |           uint16_t [01;36m[Kcrc_calc[m[K = imu_driver::Get_CRC16(frame.data(), 20);
+[3.002s]       |                    [01;36m[K^~~~~~~~[m[K
+[3.007s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:200:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu[m[K’ was not declared in this scope
+[3.007s]   200 |                 std::memcpy(&[01;31m[Kimu[m[K.accx,  &frame[4], 4);
+[3.007s]       |                              [01;31m[K^~~[m[K
+[3.012s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:258:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kq[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.012s]   258 |   Quaternion [01;35m[Kq[m[K;IMU_Data imu{};
+[3.012s]       |              [01;35m[K^[m[K
+[3.012s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:258:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kimu[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.012s]   258 |   Quaternion q;IMU_Data [01;35m[Kimu[m[K{};
+[3.012s]       |                         [01;35m[K^~~[m[K
+[3.016s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:[m[K At global scope:
+[3.016s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:269:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[3.016s]   269 | }
+[3.017s]       |  [01;31m[K^[m[K
+[3.717s] gmake[2]: *** [CMakeFiles/imu_node.dir/build.make:76: CMakeFiles/imu_node.dir/src/imu_node.cpp.o] Error 1
+[3.717s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/imu_node.dir/all] Error 2
+[3.718s] gmake: *** [Makefile:146: all] Error 2
+[3.719s] Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/senson_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/senson_pkg -- -j4 -l4

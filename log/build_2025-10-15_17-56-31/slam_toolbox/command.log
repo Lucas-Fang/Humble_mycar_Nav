@@ -1,0 +1,2 @@
+Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/slam_toolbox': /usr/bin/cmake /home/lucas-fang/ros2_Nav_ws/src/slam_toolbox -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/lucas-fang/ros2_Nav_ws/install/slam_toolbox
+Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/slam_toolbox' returned '1': /usr/bin/cmake /home/lucas-fang/ros2_Nav_ws/src/slam_toolbox -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/lucas-fang/ros2_Nav_ws/install/slam_toolbox

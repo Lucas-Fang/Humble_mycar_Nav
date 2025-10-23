@@ -1,0 +1,13 @@
+[0.011s] Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/senson_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/senson_pkg -- -j4 -l4
+[0.054s] [ 25%] [32mBuilding CXX object CMakeFiles/my_serial_lib.dir/src/crc16.cpp.o[0m
+[0.064s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_node.dir/src/imu_node.cpp.o[0m
+[0.084s] [ 75%] [32m[1mLinking CXX static library libmy_serial_lib.a[0m
+[0.111s] [ 75%] Built target my_serial_lib
+[4.651s] [100%] [32m[1mLinking CXX executable imu_node[0m
+[4.864s] /usr/bin/ld: CMakeFiles/imu_node.dir/src/imu_node.cpp.o: in function `Serial_Node::parse_buffer()':
+[4.864s] imu_node.cpp:(.text._ZN11Serial_Node12parse_bufferEv[_ZN11Serial_Node12parse_bufferEv]+0x172): undefined reference to `imu_driver::Get_CRC16(unsigned char*, unsigned short)'
+[4.879s] collect2: error: ld returned 1 exit status
+[4.881s] gmake[2]: *** [CMakeFiles/imu_node.dir/build.make:286: imu_node] Error 1
+[4.881s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/imu_node.dir/all] Error 2
+[4.881s] gmake: *** [Makefile:146: all] Error 2
+[4.883s] Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/senson_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/senson_pkg -- -j4 -l4

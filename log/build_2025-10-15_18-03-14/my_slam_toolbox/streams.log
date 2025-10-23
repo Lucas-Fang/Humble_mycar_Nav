@@ -1,0 +1,105 @@
+[0.022s] Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/my_slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lucas-fang/ros2_Nav_ws/src/my_slam_toolbox -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox
+[0.110s] -- The C compiler identification is GNU 11.4.0
+[0.199s] -- The CXX compiler identification is GNU 11.4.0
+[0.218s] -- Detecting C compiler ABI info
+[0.365s] -- Detecting C compiler ABI info - done
+[0.368s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.368s] -- Detecting C compile features
+[0.372s] -- Detecting C compile features - done
+[0.378s] -- Detecting CXX compiler ABI info
+[0.472s] -- Detecting CXX compiler ABI info - done
+[0.479s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.480s] -- Detecting CXX compile features
+[0.480s] -- Detecting CXX compile features - done
+[0.483s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.652s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.795s] -- Found slam_toolbox: 2.6.10 (/opt/ros/humble/share/slam_toolbox/cmake)
+[0.835s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.840s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.849s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.863s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.882s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.065s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.068s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.138s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.162s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.198s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.206s] -- Looking for pthread.h
+[1.275s] -- Looking for pthread.h - found
+[1.275s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.341s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.342s] -- Found Threads: TRUE  
+[1.531s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.532s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.532s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.571s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[1.577s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.578s] -- Found OGRE
+[1.578s] --   static     : OFF
+[1.578s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.578s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.579s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.579s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.579s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[1.579s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.579s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[1.580s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.580s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.580s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.580s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.580s] -- Could not find freeimage library
+[1.600s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.606s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.707s] -- Found X11: /usr/include   
+[1.707s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.782s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.782s] -- Looking for gethostbyname
+[1.843s] -- Looking for gethostbyname - found
+[1.843s] -- Looking for connect
+[1.916s] -- Looking for connect - found
+[1.917s] -- Looking for remove
+[1.982s] -- Looking for remove - found
+[1.983s] -- Looking for shmat
+[2.052s] -- Looking for shmat - found
+[2.052s] -- Looking for IceConnectionNumber in ICE
+[2.116s] -- Looking for IceConnectionNumber in ICE - found
+[2.187s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.266s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.339s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.339s] -- Added test 'lint_cmake' to check CMake code style
+[2.340s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.341s] -- Added test 'xmllint' to check XML markup files
+[2.342s] -- Configuring done
+[2.348s] -- Generating done
+[2.349s] [33mCMake Warning:
+[2.349s]   Manually-specified variables were not used by the project:
+[2.350s] 
+[2.350s]     CMAKE_EXPORT_COMPILE_COMMANDS
+[2.350s] 
+[2.350s] [0m
+[2.351s] -- Build files have been written to: /home/lucas-fang/ros2_Nav_ws/build/my_slam_toolbox
+[2.362s] Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/my_slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lucas-fang/ros2_Nav_ws/src/my_slam_toolbox -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox
+[2.363s] Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/my_slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/my_slam_toolbox -- -j4 -l4
+[2.402s] Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/my_slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/my_slam_toolbox -- -j4 -l4
+[2.404s] Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/my_slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/my_slam_toolbox
+[2.412s] -- Install configuration: ""
+[2.412s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/launch
+[2.412s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/launch/online_sync_launch.py
+[2.413s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/params
+[2.413s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/params/mapper_params_online_sync.yaml
+[2.413s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/ament_index/resource_index/package_run_dependencies/my_slam_toolbox
+[2.413s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/ament_index/resource_index/parent_prefix_path/my_slam_toolbox
+[2.414s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/environment/ament_prefix_path.sh
+[2.414s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/environment/ament_prefix_path.dsv
+[2.414s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/environment/path.sh
+[2.414s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/environment/path.dsv
+[2.414s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/local_setup.bash
+[2.414s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/local_setup.sh
+[2.415s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/local_setup.zsh
+[2.415s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/local_setup.dsv
+[2.415s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/package.dsv
+[2.415s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/ament_index/resource_index/packages/my_slam_toolbox
+[2.415s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/cmake/my_slam_toolboxConfig.cmake
+[2.416s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/cmake/my_slam_toolboxConfig-version.cmake
+[2.416s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/package.xml
+[2.418s] Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/my_slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/my_slam_toolbox

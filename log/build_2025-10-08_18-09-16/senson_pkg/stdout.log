@@ -1,0 +1,20 @@
+[ 50%] Built target my_serial_lib
+[35m[1mConsolidate compiler generated dependencies of target imu_node[0m
+[100%] Built target imu_node
+-- Install configuration: ""
+-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/lib/senson_pkg/imu_node
+-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/ament_index/resource_index/package_run_dependencies/senson_pkg
+-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/ament_index/resource_index/parent_prefix_path/senson_pkg
+-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/environment/path.sh
+-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/environment/path.dsv
+-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/local_setup.bash
+-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/local_setup.sh
+-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/local_setup.zsh
+-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/local_setup.dsv
+-- Installing: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/package.dsv
+-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/ament_index/resource_index/packages/senson_pkg
+-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/cmake/senson_pkgConfig.cmake
+-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/cmake/senson_pkgConfig-version.cmake
+-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/package.xml

@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000153] (-) JobUnselected: {'identifier': 'cpp01_serial'}
+[0.000236] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.000362] (-) EventReactorShutdown: {}

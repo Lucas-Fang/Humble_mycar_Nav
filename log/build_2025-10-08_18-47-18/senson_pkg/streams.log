@@ -1,0 +1,20 @@
+[0.011s] Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/senson_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/senson_pkg -- -j4 -l4
+[0.068s] [ 20%] [32mBuilding CXX object CMakeFiles/my_serial_lib.dir/src/imu_driver.cpp.o[0m
+[2.103s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_driver.cpp:[m[K In member function ‘[01m[KIMU_Data IMUDriver::get_imu_data(std::vector<unsigned char, std::allocator<unsigned char> >)[m[K’:
+[2.104s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_driver.cpp:83:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[2.104s]    83 | [01;35m[K}[m[K
+[2.104s]       | [01;35m[K^[m[K
+[2.559s] [ 40%] [32m[1mLinking CXX static library libmy_serial_lib.a[0m
+[2.585s] [ 60%] Built target my_serial_lib
+[2.617s] [ 80%] [32mBuilding CXX object CMakeFiles/imu_node.dir/src/imu_node.cpp.o[0m
+[7.129s] [100%] [32m[1mLinking CXX executable imu_node[0m
+[7.345s] /usr/bin/ld: CMakeFiles/imu_node.dir/src/imu_node.cpp.o: in function `Serial_Node::Serial_Node()':
+[7.345s] imu_node.cpp:(.text._ZN11Serial_NodeC2Ev[_ZN11Serial_NodeC5Ev]+0x1f3): undefined reference to `IMUDriver::IMUDriver()'
+[7.345s] /usr/bin/ld: imu_node.cpp:(.text._ZN11Serial_NodeC2Ev[_ZN11Serial_NodeC5Ev]+0xf72): undefined reference to `IMUDriver::~IMUDriver()'
+[7.347s] /usr/bin/ld: CMakeFiles/imu_node.dir/src/imu_node.cpp.o: in function `Serial_Node::~Serial_Node()':
+[7.347s] imu_node.cpp:(.text._ZN11Serial_NodeD2Ev[_ZN11Serial_NodeD5Ev]+0x2c): undefined reference to `IMUDriver::~IMUDriver()'
+[7.360s] collect2: error: ld returned 1 exit status
+[7.362s] gmake[2]: *** [CMakeFiles/imu_node.dir/build.make:287: imu_node] Error 1
+[7.362s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/imu_node.dir/all] Error 2
+[7.362s] gmake: *** [Makefile:146: all] Error 2
+[7.364s] Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/senson_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/senson_pkg -- -j4 -l4

@@ -1,0 +1,18 @@
+[0.010s] Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas-fang/ros2_Nav_ws/src/serial_pkg -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/lucas-fang/ros2_Nav_ws/install/serial_pkg
+[0.016s] [31mCMake Error at CMakeLists.txt:1 (settingcmake_minimum_required):
+[0.016s]   Unknown CMake command "settingcmake_minimum_required".
+[0.017s] 
+[0.017s] [0m
+[0.017s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.017s]   No cmake_minimum_required command is present.  A line of code such as
+[0.017s] 
+[0.017s]     cmake_minimum_required(VERSION 3.22)
+[0.017s] 
+[0.017s]   should be added at the top of the file.  The version specified may be lower
+[0.017s]   if you wish to support older CMake versions for this project.  For more
+[0.017s]   information run "cmake --help-policy CMP0000".
+[0.017s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.017s] [0m
+[0.017s] -- Configuring incomplete, errors occurred!
+[0.017s] See also "/home/lucas-fang/ros2_Nav_ws/build/serial_pkg/CMakeFiles/CMakeOutput.log".
+[0.019s] Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas-fang/ros2_Nav_ws/src/serial_pkg -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/lucas-fang/ros2_Nav_ws/install/serial_pkg

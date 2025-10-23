@@ -1,0 +1,11 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/my_serial_lib.dir/src/crc16.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/imu_node.dir/src/imu_node.cpp.o[0m
+[ 75%] [32m[1mLinking CXX static library libmy_serial_lib.a[0m
+[ 75%] Built target my_serial_lib
+[100%] [32m[1mLinking CXX executable imu_node[0m
+/usr/bin/ld: CMakeFiles/imu_node.dir/src/imu_node.cpp.o: in function `Serial_Node::parse_buffer()':
+imu_node.cpp:(.text._ZN11Serial_Node12parse_bufferEv[_ZN11Serial_Node12parse_bufferEv]+0x172): undefined reference to `imu_driver::Get_CRC16(unsigned char*, unsigned short)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/imu_node.dir/build.make:286: imu_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/imu_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

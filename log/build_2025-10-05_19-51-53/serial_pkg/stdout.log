@@ -1,0 +1,7 @@
+[35m[1mConsolidate compiler generated dependencies of target odom[0m
+[ 25%] Built target my_serial_lib
+[ 37%] [32mBuilding CXX object CMakeFiles/odom.dir/src/odom.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target chat_stm32[0m
+[35m[1mConsolidate compiler generated dependencies of target get_imu_ros2[0m
+[ 62%] Built target get_imu_ros2
+[ 87%] Built target chat_stm32

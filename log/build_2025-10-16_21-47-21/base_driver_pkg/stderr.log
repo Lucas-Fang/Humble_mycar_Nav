@@ -1,0 +1,4 @@
+[01m[K/home/lucas-fang/ros2_Nav_ws/src/base_driver_pkg/src/stm32_node.cpp:[m[K In lambda function:
+[01m[K/home/lucas-fang/ros2_Nav_ws/src/base_driver_pkg/src/stm32_node.cpp:103:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  103 |     port->async_receive([this](const std::vector<uint8_t> &data,[01;35m[Kconst size_t &size[m[K)
+      |                                                                 [01;35m[K~~~~~~~~~~~~~~^~~~[m[K

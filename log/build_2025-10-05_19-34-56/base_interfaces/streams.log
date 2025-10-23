@@ -1,0 +1,245 @@
+[0.011s] Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/base_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/base_interfaces -- -j4 -l4
+[0.032s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.032s] -- Found ament_cmake_core: 1.3.11 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[0.138s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.141s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.172s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.411s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.569s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.784s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.804s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.825s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.825s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.825s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.834s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.839s] -- Configuring done
+[0.866s] -- Generating done
+[0.877s] -- Build files have been written to: /home/lucas-fang/ros2_Nav_ws/build/base_interfaces
+[0.900s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.913s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.919s] [  5%] Built target ament_cmake_python_copy_base_interfaces
+[1.178s] running egg_info
+[1.179s] writing base_interfaces.egg-info/PKG-INFO
+[1.179s] writing dependency_links to base_interfaces.egg-info/dependency_links.txt
+[1.180s] writing top-level names to base_interfaces.egg-info/top_level.txt
+[1.182s] reading manifest file 'base_interfaces.egg-info/SOURCES.txt'
+[1.183s] writing manifest file 'base_interfaces.egg-info/SOURCES.txt'
+[1.227s] [  5%] Built target ament_cmake_python_build_base_interfaces_egg
+[1.270s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_generator_c[0m
+[1.275s] [  5%] Built target base_interfaces__cpp
+[1.281s] [ 10%] [32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces/msg/detail/robot__functions.c.o[0m
+[1.283s] [ 10%] [32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces/msg/detail/imu__functions.c.o[0m
+[1.287s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.288s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.341s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.341s] [ 20%] [32m[1mLinking C shared library libbase_interfaces__rosidl_generator_c.so[0m
+[1.385s] [ 20%] Built target base_interfaces__rosidl_generator_c
+[1.396s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.617s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.634s] [ 25%] [32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces/msg/detail/imu__type_support.cpp.o[0m
+[1.642s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.644s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_cpp[0m
+[1.689s] [ 28%] [32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces/msg/detail/dds_fastrtps/imu__type_support.cpp.o[0m
+[1.690s] [ 30%] [32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces/msg/imu__type_support.cpp.o[0m
+[1.742s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.761s] [ 33%] [32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces/msg/detail/imu__type_support_c.cpp.o[0m
+[1.978s] [ 35%] [32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces/msg/robot__type_support.cpp.o[0m
+[2.093s] [ 38%] [32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces/msg/detail/robot__type_support.cpp.o[0m
+[2.138s] [ 41%] [32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces/msg/detail/dds_fastrtps/robot__type_support.cpp.o[0m
+[2.167s] [ 43%] [32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces/msg/detail/robot__type_support_c.cpp.o[0m
+[2.296s] [ 46%] [32m[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_cpp.so[0m
+[2.344s] [ 46%] Built target base_interfaces__rosidl_typesupport_cpp
+[2.356s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.554s] [ 51%] [32m[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.575s] [ 53%] [32m[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.602s] [ 53%] Built target base_interfaces__rosidl_typesupport_introspection_cpp
+[2.613s] [ 56%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.632s] [ 58%] [32m[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.695s] [ 58%] Built target base_interfaces__rosidl_typesupport_fastrtps_c
+[2.723s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_introspection_c[0m
+[2.738s] [ 64%] [32mBuilding C object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces/msg/detail/imu__type_support.c.o[0m
+[2.739s] [ 64%] [32mBuilding C object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces/msg/detail/robot__type_support.c.o[0m
+[2.749s] [ 64%] Built target base_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.772s] [ 66%] [32m[1mLinking C shared library libbase_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.799s] [ 66%] Built target base_interfaces__rosidl_typesupport_introspection_c
+[2.877s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_c[0m
+[2.887s] [ 71%] [32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces/msg/robot__type_support.cpp.o[0m
+[2.887s] [ 71%] [32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces/msg/imu__type_support.cpp.o[0m
+[2.915s] [ 74%] [32m[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_c.so[0m
+[2.948s] [ 74%] Built target base_interfaces__rosidl_typesupport_c
+[2.963s] [ 74%] Built target base_interfaces
+[2.980s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.313s] [ 76%] Built target base_interfaces__py
+[3.322s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_generator_py[0m
+[3.333s] [ 82%] [32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces/msg/_imu_s.c.o[0m
+[3.334s] [ 82%] [32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces/msg/_robot_s.c.o[0m
+[3.424s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces/libbase_interfaces__rosidl_generator_py.so[0m
+[3.457s] [ 84%] Built target base_interfaces__rosidl_generator_py
+[3.477s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.477s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[3.477s] [35m[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_c__pyext[0m
+[3.491s] [ 87%] [32mBuilding C object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.493s] [ 89%] [32mBuilding C object CMakeFiles/base_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.504s] [ 92%] [32mBuilding C object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.590s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces/base_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.594s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.605s] [100%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.628s] [100%] Built target base_interfaces__rosidl_typesupport_c__pyext
+[3.631s] [100%] Built target base_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.642s] [100%] Built target base_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.653s] Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/base_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/base_interfaces -- -j4 -l4
+[3.662s] Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/base_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/base_interfaces
+[3.670s] -- Install configuration: ""
+[3.670s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/ament_index/resource_index/rosidl_interfaces/base_interfaces
+[3.670s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces
+[3.670s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg
+[3.670s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail
+[3.670s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/robot__type_support.h
+[3.670s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/imu__functions.h
+[3.670s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/imu__functions.c
+[3.671s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/imu__type_support.h
+[3.671s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/robot__functions.h
+[3.671s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/robot__struct.h
+[3.671s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/robot__functions.c
+[3.671s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/imu__struct.h
+[3.671s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/imu.h
+[3.671s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/robot.h
+[3.671s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.671s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/environment/library_path.sh
+[3.671s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/environment/library_path.dsv
+[3.672s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_c.so
+[3.672s] -- Set runtime path of "/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_c.so" to ""
+[3.672s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces
+[3.672s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg
+[3.672s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail
+[3.672s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/imu__rosidl_typesupport_fastrtps_c.h
+[3.672s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/robot__rosidl_typesupport_fastrtps_c.h
+[3.672s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.673s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.673s] -- Set runtime path of "/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.673s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces
+[3.673s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg
+[3.673s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail
+[3.673s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/imu__rosidl_typesupport_introspection_c.h
+[3.673s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/robot__type_support.c
+[3.673s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/robot__rosidl_typesupport_introspection_c.h
+[3.673s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/imu__type_support.c
+[3.674s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.674s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_c.so
+[3.674s] -- Set runtime path of "/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.674s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_c.so
+[3.674s] -- Set runtime path of "/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_c.so" to ""
+[3.675s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces
+[3.675s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg
+[3.675s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.675s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/robot.hpp
+[3.675s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail
+[3.675s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/robot__struct.hpp
+[3.675s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/imu__type_support.hpp
+[3.675s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/robot__traits.hpp
+[3.675s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/robot__builder.hpp
+[3.675s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/robot__type_support.hpp
+[3.675s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/imu__traits.hpp
+[3.676s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/imu__builder.hpp
+[3.676s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/imu__struct.hpp
+[3.676s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/imu.hpp
+[3.676s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces
+[3.676s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg
+[3.676s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail
+[3.676s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/robot__rosidl_typesupport_fastrtps_cpp.hpp
+[3.676s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp
+[3.676s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/dds_fastrtps
+[3.676s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.676s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.677s] -- Set runtime path of "/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.677s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces
+[3.677s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg
+[3.677s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail
+[3.677s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/robot__rosidl_typesupport_introspection_cpp.hpp
+[3.677s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/robot__type_support.cpp
+[3.677s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp
+[3.677s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/imu__type_support.cpp
+[3.677s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.678s] -- Set runtime path of "/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.678s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_cpp.so
+[3.678s] -- Set runtime path of "/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.678s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/environment/pythonpath.sh
+[3.678s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/environment/pythonpath.dsv
+[3.678s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info
+[3.679s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.679s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.679s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.679s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.679s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces
+[3.679s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/__init__.py
+[3.679s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_c.c
+[3.679s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.679s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.679s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg
+[3.680s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg/__init__.py
+[3.680s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg/_robot.py
+[3.680s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg/_robot_s.c
+[3.680s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg/_imu.py
+[3.680s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg/_imu_s.c
+[3.680s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.680s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.680s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/libbase_interfaces__rosidl_generator_py.so
+[3.680s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.715s] Listing '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces'...
+[3.715s] Compiling '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/__init__.py'...
+[3.715s] Listing '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg'...
+[3.715s] Compiling '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg/__init__.py'...
+[3.715s] Compiling '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg/_imu.py'...
+[3.715s] Compiling '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg/_robot.py'...
+[3.720s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.720s] -- Set runtime path of "/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.720s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.721s] -- Set runtime path of "/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.721s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.721s] -- Set runtime path of "/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.721s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_py.so
+[3.722s] -- Set runtime path of "/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_py.so" to ""
+[3.722s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/msg/Imu.idl
+[3.722s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/msg/Robot.idl
+[3.722s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/msg/Imu.msg
+[3.722s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/msg/Robot.msg
+[3.722s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/ament_index/resource_index/package_run_dependencies/base_interfaces
+[3.722s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/ament_index/resource_index/parent_prefix_path/base_interfaces
+[3.723s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/environment/ament_prefix_path.sh
+[3.723s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/environment/ament_prefix_path.dsv
+[3.723s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/environment/path.sh
+[3.723s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/environment/path.dsv
+[3.723s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/local_setup.bash
+[3.723s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/local_setup.sh
+[3.723s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/local_setup.zsh
+[3.723s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/local_setup.dsv
+[3.723s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/package.dsv
+[3.724s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/ament_index/resource_index/packages/base_interfaces
+[3.724s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cExport.cmake
+[3.724s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.724s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.724s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.724s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.724s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.724s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cExport.cmake
+[3.724s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.724s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cppExport.cmake
+[3.725s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.725s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.725s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.725s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.725s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cppExport.cmake
+[3.725s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.725s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_pyExport.cmake
+[3.725s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.726s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.726s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.726s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.726s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.726s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.726s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.726s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.726s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake/base_interfacesConfig.cmake
+[3.726s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake/base_interfacesConfig-version.cmake
+[3.726s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/package.xml
+[3.727s] Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/base_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/base_interfaces

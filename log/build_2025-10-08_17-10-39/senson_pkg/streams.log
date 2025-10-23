@@ -1,0 +1,47 @@
+[0.011s] Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/senson_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/senson_pkg -- -j4 -l4
+[0.033s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.144s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.169s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.172s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.177s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.185s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.197s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.225s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.226s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.315s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.358s] -- Found serial_driver: 1.2.0 (/opt/ros/humble/share/serial_driver/cmake)
+[0.372s] -- Found asio_cmake_module: 1.2.0 (/opt/ros/humble/share/asio_cmake_module/cmake)
+[0.408s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.419s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.434s] -- Found tf2: 0.25.13 (/opt/ros/humble/share/tf2/cmake)
+[0.437s] -- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.497s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.560s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.560s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/include>
+[0.560s] -- Configured cppcheck exclude dirs and/or files: 
+[0.561s] -- Added test 'lint_cmake' to check CMake code style
+[0.562s] -- Added test 'uncrustify' to check C / C++ code style
+[0.562s] -- Configured uncrustify additional arguments: 
+[0.562s] -- Added test 'xmllint' to check XML markup files
+[0.563s] -- Configuring done
+[0.587s] -- Generating done
+[0.594s] -- Build files have been written to: /home/lucas-fang/ros2_Nav_ws/build/senson_pkg
+[0.623s] [35m[1mConsolidate compiler generated dependencies of target my_serial_lib[0m
+[0.624s] [35m[1mConsolidate compiler generated dependencies of target imu_node[0m
+[0.633s] [ 16%] [32mBuilding CXX object CMakeFiles/crc16.dir/src/crc16.cpp.o[0m
+[0.636s] [ 50%] Built target my_serial_lib
+[0.640s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/crc16.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Ksenson_pkg/crc16.h: No such file or directory
+[0.640s]     1 | #include [01;31m[K"senson_pkg/crc16.h"[m[K
+[0.640s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[0.640s] compilation terminated.
+[0.641s] gmake[2]: *** [CMakeFiles/crc16.dir/build.make:76: CMakeFiles/crc16.dir/src/crc16.cpp.o] Error 1
+[0.641s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/crc16.dir/all] Error 2
+[0.641s] gmake[1]: *** Waiting for unfinished jobs....
+[0.648s] [ 66%] [32m[1mLinking CXX executable imu_node[0m
+[0.865s] /usr/bin/ld: CMakeFiles/imu_node.dir/src/imu_node.cpp.o: in function `Serial_Node::parse_buffer()':
+[0.866s] imu_node.cpp:(.text._ZN11Serial_Node12parse_bufferEv[_ZN11Serial_Node12parse_bufferEv]+0x172): undefined reference to `imu_driver::Get_CRC16(unsigned char*, unsigned short)'
+[0.881s] collect2: error: ld returned 1 exit status
+[0.882s] gmake[2]: *** [CMakeFiles/imu_node.dir/build.make:286: imu_node] Error 1
+[0.882s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/imu_node.dir/all] Error 2
+[0.882s] gmake: *** [Makefile:146: all] Error 2
+[0.885s] Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/senson_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/senson_pkg -- -j4 -l4

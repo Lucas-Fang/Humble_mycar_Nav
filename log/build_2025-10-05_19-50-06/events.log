@@ -1,0 +1,240 @@
+[0.000000] (-) TimerEvent: {}
+[0.000472] (-) JobUnselected: {'identifier': 'base_interfaces'}
+[0.000611] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.000642] (serial_pkg) JobQueued: {'identifier': 'serial_pkg', 'dependencies': OrderedDict([('base_interfaces', '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces')])}
+[0.000777] (serial_pkg) JobStarted: {'identifier': 'serial_pkg'}
+[0.009915] (serial_pkg) JobProgress: {'identifier': 'serial_pkg', 'progress': 'cmake'}
+[0.010560] (serial_pkg) JobProgress: {'identifier': 'serial_pkg', 'progress': 'build'}
+[0.011256] (serial_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg', '--', '-j4', '-l4'], 'cwd': '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lucas-fang'), ('SSH_CLIENT', '192.168.70.195 45716 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/lucas-fang/.vscode-server/cli/servers/Stable-f220831ea2d946c0dcb0f3eaa480eb435a2c1260/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/lucas-fang/.vscode-server/cli/servers/Stable-f220831ea2d946c0dcb0f3eaa480eb435a2c1260/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lucas-fang'), ('TERM_PROGRAM_VERSION', '1.104.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-17915738-e200-4f29-b89d-f8ee3c5734f0.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/lucas-fang/.vscode-server/cli/servers/Stable-f220831ea2d946c0dcb0f3eaa480eb435a2c1260/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/lucas-fang/.vscode-server/cli/servers/Stable-f220831ea2d946c0dcb0f3eaa480eb435a2c1260/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/lucas-fang/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lucas-fang/ros2_Nav_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lucas-fang'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '422'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lucas-fang/.vscode-server/cli/servers/Stable-f220831ea2d946c0dcb0f3eaa480eb435a2c1260/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/lucas-fang/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/lucas-fang/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lucas-fang/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-d67a174d51a1057f.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/lucas-fang/.vscode-server/data/User/workspaceStorage/47b21b766c4e2b89697148b3263902fc/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-71a3b954ea.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg:/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros:/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/opt/ros/humble'), ('CRASHDIR', '/etc/ShellCrash'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.70.195 45716 192.168.70.123 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/home/lucas-fang/ros2_Nav_ws/install/serial_pkg:/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros:/opt/ros/humble')]), 'shell': False}
+[0.035525] (serial_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099770] (-) TimerEvent: {}
+[0.147481] (serial_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.171859] (serial_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.174125] (serial_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.179181] (serial_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.187361] (serial_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.197887] (serial_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199884] (-) TimerEvent: {}
+[0.228598] (serial_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.229810] (serial_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299992] (-) TimerEvent: {}
+[0.313274] (serial_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.355177] (serial_pkg) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.366815] (serial_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.383274] (serial_pkg) StdoutLine: {'line': b'-- Found serial_driver: 1.2.0 (/opt/ros/humble/share/serial_driver/cmake)\n'}
+[0.397683] (serial_pkg) StdoutLine: {'line': b'-- Found asio_cmake_module: 1.2.0 (/opt/ros/humble/share/asio_cmake_module/cmake)\n'}
+[0.400090] (-) TimerEvent: {}
+[0.433170] (serial_pkg) StdoutLine: {'line': b'-- Found tf2: 0.25.13 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.436005] (serial_pkg) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.489110] (serial_pkg) StdoutLine: {'line': b'-- Found base_interfaces: 0.0.0 (/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake)\n'}
+[0.500172] (-) TimerEvent: {}
+[0.513834] (serial_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.578400] (serial_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.578974] (serial_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lucas-fang/ros2_Nav_ws/src/serial_pkg/include>\n'}
+[0.579133] (serial_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.579741] (serial_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.580620] (serial_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.580760] (serial_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.580906] (serial_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.581770] (serial_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.600272] (-) TimerEvent: {}
+[0.634495] (serial_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.644732] (serial_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/lucas-fang/ros2_Nav_ws/build/serial_pkg\n'}
+[0.669100] (serial_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_serial_lib\x1b[0m\n'}
+[0.670765] (serial_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target odom\x1b[0m\n'}
+[0.683106] (serial_pkg) StdoutLine: {'line': b'[ 25%] Built target my_serial_lib\n'}
+[0.693773] (serial_pkg) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/odom.dir/src/odom.cpp.o\x1b[0m\n'}
+[0.700420] (-) TimerEvent: {}
+[0.702360] (serial_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target chat_stm32\x1b[0m\n'}
+[0.702667] (serial_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target get_imu_ros2\x1b[0m\n'}
+[0.734683] (serial_pkg) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/chat_stm32.dir/src/chat_stm32.cpp.o\x1b[0m\n'}
+[0.734877] (serial_pkg) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/get_imu_ros2.dir/src/get_imu_ros2.cpp.o\x1b[0m\n'}
+[0.800514] (-) TimerEvent: {}
+[0.904693] (-) TimerEvent: {}
+[1.005005] (-) TimerEvent: {}
+[1.105489] (-) TimerEvent: {}
+[1.206037] (-) TimerEvent: {}
+[1.306714] (-) TimerEvent: {}
+[1.408025] (-) TimerEvent: {}
+[1.508376] (-) TimerEvent: {}
+[1.609876] (-) TimerEvent: {}
+[1.710239] (-) TimerEvent: {}
+[1.810603] (-) TimerEvent: {}
+[1.911889] (-) TimerEvent: {}
+[2.012521] (-) TimerEvent: {}
+[2.113223] (-) TimerEvent: {}
+[2.213604] (-) TimerEvent: {}
+[2.314263] (-) TimerEvent: {}
+[2.414656] (-) TimerEvent: {}
+[2.515028] (-) TimerEvent: {}
+[2.615409] (-) TimerEvent: {}
+[2.716121] (-) TimerEvent: {}
+[2.816507] (-) TimerEvent: {}
+[2.916851] (-) TimerEvent: {}
+[3.017185] (-) TimerEvent: {}
+[3.117549] (-) TimerEvent: {}
+[3.217899] (-) TimerEvent: {}
+[3.318639] (-) TimerEvent: {}
+[3.418968] (-) TimerEvent: {}
+[3.519315] (-) TimerEvent: {}
+[3.588951] (serial_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/serial_pkg/src/odom.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCala_Odom::Cala_Odom()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.589771] (serial_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/serial_pkg/src/odom.cpp:17:103:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kbind(<unresolved overloaded function type>, Cala_Odom*, const std::_Placeholder<1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.589891] (serial_pkg) StderrLine: {'line': b'   17 |         sub_my_imu_ = this->create_subscription<base_interfaces::msg::Imu>("myimu/data", 10, \x1b[01;31m\x1b[Kstd::bind(\x1b[m\x1b[K\n'}
+[3.589986] (serial_pkg) StderrLine: {'line': b'      |                                                                                              \x1b[01;31m\x1b[K~~~~~~~~~^\x1b[m\x1b[K\n'}
+[3.590060] (serial_pkg) StderrLine: {'line': b'   18 | \x1b[01;31m\x1b[K            &Cala_Odom::topic_callback, this, std::placeholders::_1)\x1b[m\x1b[K);\n'}
+[3.590133] (serial_pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                   \n'}
+[3.590216] (serial_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.590290] (serial_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[3.590361] (serial_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[3.590432] (serial_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.590502] (serial_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.590571] (serial_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.590665] (serial_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/serial_pkg/src/odom.cpp:1\x1b[m\x1b[K:\n'}
+[3.590748] (serial_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:789:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.590826] (serial_pkg) StderrLine: {'line': b'  789 |     \x1b[01;36m\x1b[Kbind\x1b[m\x1b[K(_Func&& __f, _BoundArgs&&... __args)\n'}
+[3.590898] (serial_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.590968] (serial_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:789:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.591055] (serial_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/serial_pkg/src/odom.cpp:17:103:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_Func\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.591125] (serial_pkg) StderrLine: {'line': b'   17 |         sub_my_imu_ = this->create_subscription<base_interfaces::msg::Imu>("myimu/data", 10, \x1b[01;36m\x1b[Kstd::bind(\x1b[m\x1b[K\n'}
+[3.591195] (serial_pkg) StderrLine: {'line': b'      |                                                                                              \x1b[01;36m\x1b[K~~~~~~~~~^\x1b[m\x1b[K\n'}
+[3.591263] (serial_pkg) StderrLine: {'line': b'   18 | \x1b[01;36m\x1b[K            &Cala_Odom::topic_callback, this, std::placeholders::_1)\x1b[m\x1b[K);\n'}
+[3.591333] (serial_pkg) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                   \n'}
+[3.591403] (serial_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.591474] (serial_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[3.591546] (serial_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[3.591619] (serial_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.596338] (serial_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.596827] (serial_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.597337] (serial_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/serial_pkg/src/odom.cpp:1\x1b[m\x1b[K:\n'}
+[3.597709] (serial_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:813:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Result, class _Func, class ... _BoundArgs> typename std::_Bindres_helper<_Result, _Func, _BoundArgs>::type std::bind(_Func&&, _BoundArgs&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.598074] (serial_pkg) StderrLine: {'line': b'  813 |     \x1b[01;36m\x1b[Kbind\x1b[m\x1b[K(_Func&& __f, _BoundArgs&&... __args)\n'}
+[3.598431] (serial_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.598810] (serial_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:813:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.599182] (serial_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/serial_pkg/src/odom.cpp:17:103:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_Result\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.599535] (serial_pkg) StderrLine: {'line': b'   17 |         sub_my_imu_ = this->create_subscription<base_interfaces::msg::Imu>("myimu/data", 10, \x1b[01;36m\x1b[Kstd::bind(\x1b[m\x1b[K\n'}
+[3.599908] (serial_pkg) StderrLine: {'line': b'      |                                                                                              \x1b[01;36m\x1b[K~~~~~~~~~^\x1b[m\x1b[K\n'}
+[3.600285] (serial_pkg) StderrLine: {'line': b'   18 | \x1b[01;36m\x1b[K            &Cala_Odom::topic_callback, this, std::placeholders::_1)\x1b[m\x1b[K);\n'}
+[3.600643] (serial_pkg) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                   \n'}
+[3.601115] (serial_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/serial_pkg/src/odom.cpp:20:108:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kbind(<unresolved overloaded function type>, Cala_Odom*, const std::_Placeholder<1>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.601493] (serial_pkg) StderrLine: {'line': b'   20 |         sub_my_robot_ = this->create_subscription<base_interfaces::msg::Robot>("robot/speed", 10, \x1b[01;31m\x1b[Kstd::bind(\x1b[m\x1b[K\n'}
+[3.601925] (serial_pkg) StderrLine: {'line': b'      |                                                                                                   \x1b[01;31m\x1b[K~~~~~~~~~^\x1b[m\x1b[K\n'}
+[3.602284] (serial_pkg) StderrLine: {'line': b'   21 | \x1b[01;31m\x1b[K            &Cala_Odom::topic_callback, this, std::placeholders::_1)\x1b[m\x1b[K);\n'}
+[3.602647] (serial_pkg) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                        \n'}
+[3.603014] (serial_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.603370] (serial_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[3.603729] (serial_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[3.604077] (serial_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.604432] (serial_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.604798] (serial_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.605140] (serial_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/serial_pkg/src/odom.cpp:1\x1b[m\x1b[K:\n'}
+[3.605483] (serial_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:789:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Func, class ... _BoundArgs> typename std::_Bind_helper<std::__is_socketlike<_Func>::value, _Func, _BoundArgs ...>::type std::bind(_Func&&, _BoundArgs&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.605871] (serial_pkg) StderrLine: {'line': b'  789 |     \x1b[01;36m\x1b[Kbind\x1b[m\x1b[K(_Func&& __f, _BoundArgs&&... __args)\n'}
+[3.606248] (serial_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.606600] (serial_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:789:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.606714] (serial_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/serial_pkg/src/odom.cpp:20:108:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_Func\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.606796] (serial_pkg) StderrLine: {'line': b'   20 |         sub_my_robot_ = this->create_subscription<base_interfaces::msg::Robot>("robot/speed", 10, \x1b[01;36m\x1b[Kstd::bind(\x1b[m\x1b[K\n'}
+[3.606871] (serial_pkg) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K~~~~~~~~~^\x1b[m\x1b[K\n'}
+[3.606948] (serial_pkg) StderrLine: {'line': b'   21 | \x1b[01;36m\x1b[K            &Cala_Odom::topic_callback, this, std::placeholders::_1)\x1b[m\x1b[K);\n'}
+[3.607023] (serial_pkg) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                        \n'}
+[3.607098] (serial_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[3.607169] (serial_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[3.607240] (serial_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[3.607310] (serial_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.607382] (serial_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.607455] (serial_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.607527] (serial_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/serial_pkg/src/odom.cpp:1\x1b[m\x1b[K:\n'}
+[3.607600] (serial_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:813:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Result, class _Func, class ... _BoundArgs> typename std::_Bindres_helper<_Result, _Func, _BoundArgs>::type std::bind(_Func&&, _BoundArgs&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.610323] (serial_pkg) StderrLine: {'line': b'  813 |     \x1b[01;36m\x1b[Kbind\x1b[m\x1b[K(_Func&& __f, _BoundArgs&&... __args)\n'}
+[3.610742] (serial_pkg) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.611133] (serial_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:813:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.611511] (serial_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/serial_pkg/src/odom.cpp:20:108:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_Result\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.611977] (serial_pkg) StderrLine: {'line': b'   20 |         sub_my_robot_ = this->create_subscription<base_interfaces::msg::Robot>("robot/speed", 10, \x1b[01;36m\x1b[Kstd::bind(\x1b[m\x1b[K\n'}
+[3.612362] (serial_pkg) StderrLine: {'line': b'      |                                                                                                   \x1b[01;36m\x1b[K~~~~~~~~~^\x1b[m\x1b[K\n'}
+[3.612747] (serial_pkg) StderrLine: {'line': b'   21 | \x1b[01;36m\x1b[K            &Cala_Odom::topic_callback, this, std::placeholders::_1)\x1b[m\x1b[K);\n'}
+[3.613111] (serial_pkg) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                        \n'}
+[3.619434] (-) TimerEvent: {}
+[3.719829] (-) TimerEvent: {}
+[3.822716] (-) TimerEvent: {}
+[3.923074] (-) TimerEvent: {}
+[4.023739] (-) TimerEvent: {}
+[4.124153] (-) TimerEvent: {}
+[4.191393] (serial_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/odom.dir/build.make:76: CMakeFiles/odom.dir/src/odom.cpp.o] Error 1\n'}
+[4.191763] (serial_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/odom.dir/all] Error 2\n'}
+[4.191900] (serial_pkg) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[4.224249] (-) TimerEvent: {}
+[4.324685] (-) TimerEvent: {}
+[4.425022] (-) TimerEvent: {}
+[4.525407] (-) TimerEvent: {}
+[4.625822] (-) TimerEvent: {}
+[4.726216] (-) TimerEvent: {}
+[4.826693] (-) TimerEvent: {}
+[4.927144] (-) TimerEvent: {}
+[5.027476] (-) TimerEvent: {}
+[5.127837] (-) TimerEvent: {}
+[5.228155] (-) TimerEvent: {}
+[5.328521] (-) TimerEvent: {}
+[5.428896] (-) TimerEvent: {}
+[5.529246] (-) TimerEvent: {}
+[5.629677] (-) TimerEvent: {}
+[5.729999] (-) TimerEvent: {}
+[5.830334] (-) TimerEvent: {}
+[5.930678] (-) TimerEvent: {}
+[6.031018] (-) TimerEvent: {}
+[6.131383] (-) TimerEvent: {}
+[6.231741] (-) TimerEvent: {}
+[6.332124] (-) TimerEvent: {}
+[6.432483] (-) TimerEvent: {}
+[6.532859] (-) TimerEvent: {}
+[6.633183] (-) TimerEvent: {}
+[6.733505] (-) TimerEvent: {}
+[6.833829] (-) TimerEvent: {}
+[6.934171] (-) TimerEvent: {}
+[7.034602] (-) TimerEvent: {}
+[7.113602] (serial_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable get_imu_ros2\x1b[0m\n'}
+[7.134786] (-) TimerEvent: {}
+[7.235278] (-) TimerEvent: {}
+[7.335678] (-) TimerEvent: {}
+[7.423441] (serial_pkg) StdoutLine: {'line': b'[ 75%] Built target get_imu_ros2\n'}
+[7.435793] (-) TimerEvent: {}
+[7.536157] (-) TimerEvent: {}
+[7.636484] (-) TimerEvent: {}
+[7.736799] (-) TimerEvent: {}
+[7.837092] (-) TimerEvent: {}
+[7.937416] (-) TimerEvent: {}
+[8.037734] (-) TimerEvent: {}
+[8.138020] (-) TimerEvent: {}
+[8.238348] (-) TimerEvent: {}
+[8.338699] (-) TimerEvent: {}
+[8.439024] (-) TimerEvent: {}
+[8.539345] (-) TimerEvent: {}
+[8.639682] (-) TimerEvent: {}
+[8.740006] (-) TimerEvent: {}
+[8.840293] (-) TimerEvent: {}
+[8.940608] (-) TimerEvent: {}
+[9.040920] (-) TimerEvent: {}
+[9.141206] (-) TimerEvent: {}
+[9.241536] (-) TimerEvent: {}
+[9.341846] (-) TimerEvent: {}
+[9.442134] (-) TimerEvent: {}
+[9.542422] (-) TimerEvent: {}
+[9.642724] (-) TimerEvent: {}
+[9.743019] (-) TimerEvent: {}
+[9.843316] (-) TimerEvent: {}
+[9.943644] (-) TimerEvent: {}
+[10.043976] (-) TimerEvent: {}
+[10.144312] (-) TimerEvent: {}
+[10.244603] (-) TimerEvent: {}
+[10.344949] (-) TimerEvent: {}
+[10.445300] (-) TimerEvent: {}
+[10.491701] (serial_pkg) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable chat_stm32\x1b[0m\n'}
+[10.545430] (-) TimerEvent: {}
+[10.645782] (-) TimerEvent: {}
+[10.746162] (-) TimerEvent: {}
+[10.846520] (-) TimerEvent: {}
+[10.946845] (-) TimerEvent: {}
+[11.036117] (serial_pkg) StdoutLine: {'line': b'[ 87%] Built target chat_stm32\n'}
+[11.037131] (serial_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.038957] (serial_pkg) CommandEnded: {'returncode': 2}
+[11.046988] (-) TimerEvent: {}
+[11.050635] (serial_pkg) JobEnded: {'identifier': 'serial_pkg', 'rc': 2}
+[11.061457] (-) EventReactorShutdown: {}

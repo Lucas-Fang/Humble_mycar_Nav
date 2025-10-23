@@ -1,0 +1,6 @@
+Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/my_map_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas-fang/ros2_Nav_ws/src/my_map_server -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/lucas-fang/ros2_Nav_ws/install/my_map_server
+Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/my_map_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas-fang/ros2_Nav_ws/src/my_map_server -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/lucas-fang/ros2_Nav_ws/install/my_map_server
+Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/my_map_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/my_map_server -- -j4 -l4
+Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/my_map_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/my_map_server -- -j4 -l4
+Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/my_map_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/my_map_server
+Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/my_map_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/my_map_server

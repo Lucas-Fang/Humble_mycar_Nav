@@ -1,0 +1,7 @@
+[01m[K/home/lucas-fang/ros2_Nav_ws/src/serial_pkg/src/chat_stm32.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kcrc16.h: No such file or directory
+    6 | #include [01;31m[K"crc16.h"[m[K
+      |          [01;31m[K^~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/chat_stm32.dir/build.make:76: CMakeFiles/chat_stm32.dir/src/chat_stm32.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/chat_stm32.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

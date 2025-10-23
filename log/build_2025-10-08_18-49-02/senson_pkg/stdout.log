@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target my_serial_lib[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/my_serial_lib.dir/src/imu_driver.cpp.o[0m
+[ 40%] [32m[1mLinking CXX static library libmy_serial_lib.a[0m
+[ 60%] Built target my_serial_lib
+[35m[1mConsolidate compiler generated dependencies of target imu_node[0m
+[ 80%] [32m[1mLinking CXX executable imu_node[0m

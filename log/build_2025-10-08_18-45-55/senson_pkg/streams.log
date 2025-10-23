@@ -1,0 +1,48 @@
+[0.011s] Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/senson_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/senson_pkg -- -j4 -l4
+[0.033s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.144s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.168s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.171s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.176s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.184s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.194s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.222s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.223s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.309s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.352s] -- Found serial_driver: 1.2.0 (/opt/ros/humble/share/serial_driver/cmake)
+[0.365s] -- Found asio_cmake_module: 1.2.0 (/opt/ros/humble/share/asio_cmake_module/cmake)
+[0.400s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.411s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.427s] -- Found tf2: 0.25.13 (/opt/ros/humble/share/tf2/cmake)
+[0.429s] -- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.488s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.550s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.550s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/include>
+[0.551s] -- Configured cppcheck exclude dirs and/or files: 
+[0.551s] -- Added test 'lint_cmake' to check CMake code style
+[0.552s] -- Added test 'uncrustify' to check C / C++ code style
+[0.552s] -- Configured uncrustify additional arguments: 
+[0.552s] -- Added test 'xmllint' to check XML markup files
+[0.553s] -- Configuring done
+[0.576s] -- Generating done
+[0.582s] -- Build files have been written to: /home/lucas-fang/ros2_Nav_ws/build/senson_pkg
+[0.607s] [35m[1mConsolidate compiler generated dependencies of target my_serial_lib[0m
+[0.623s] [ 20%] [32mBuilding CXX object CMakeFiles/my_serial_lib.dir/src/imu_driver.cpp.o[0m
+[2.700s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_driver.cpp:[m[K In member function ‘[01m[KIMU_Data IMUDriver::get_imu_data(std::vector<unsigned char, std::allocator<unsigned char> >)[m[K’:
+[2.700s] [01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_driver.cpp:83:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[2.700s]    83 | [01;35m[K}[m[K
+[2.700s]       | [01;35m[K^[m[K
+[3.178s] [ 40%] [32m[1mLinking CXX static library libmy_serial_lib.a[0m
+[3.211s] [ 60%] Built target my_serial_lib
+[3.224s] [35m[1mConsolidate compiler generated dependencies of target imu_node[0m
+[3.243s] [ 80%] [32m[1mLinking CXX executable imu_node[0m
+[3.464s] /usr/bin/ld: CMakeFiles/imu_node.dir/src/imu_node.cpp.o: in function `Serial_Node::Serial_Node()':
+[3.464s] imu_node.cpp:(.text._ZN11Serial_NodeC2Ev[_ZN11Serial_NodeC5Ev]+0x1f3): undefined reference to `IMUDriver::IMUDriver()'
+[3.464s] /usr/bin/ld: imu_node.cpp:(.text._ZN11Serial_NodeC2Ev[_ZN11Serial_NodeC5Ev]+0xf72): undefined reference to `IMUDriver::~IMUDriver()'
+[3.466s] /usr/bin/ld: CMakeFiles/imu_node.dir/src/imu_node.cpp.o: in function `Serial_Node::~Serial_Node()':
+[3.466s] imu_node.cpp:(.text._ZN11Serial_NodeD2Ev[_ZN11Serial_NodeD5Ev]+0x2c): undefined reference to `IMUDriver::~IMUDriver()'
+[3.479s] collect2: error: ld returned 1 exit status
+[3.481s] gmake[2]: *** [CMakeFiles/imu_node.dir/build.make:287: imu_node] Error 1
+[3.481s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/imu_node.dir/all] Error 2
+[3.481s] gmake: *** [Makefile:146: all] Error 2
+[3.483s] Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/senson_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/senson_pkg -- -j4 -l4

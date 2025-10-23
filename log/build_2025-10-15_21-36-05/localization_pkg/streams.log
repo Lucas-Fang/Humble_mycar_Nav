@@ -1,0 +1,39 @@
+[0.023s] Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/localization_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/localization_pkg -- -j4 -l4
+[0.051s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.256s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.320s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.324s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.340s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.355s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.380s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.440s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.447s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.580s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.636s] -- Found robot_localization: 3.5.4 (/opt/ros/humble/share/robot_localization/cmake)
+[0.724s] -- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.836s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.854s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.876s] -- Found nav2_amcl: 1.1.18 (/opt/ros/humble/share/nav2_amcl/cmake)
+[0.898s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.901s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.013s] [31mCMake Error at CMakeLists.txt:17 (find_package):
+[1.014s]   By not providing "Findmycar_map_server.cmake" in CMAKE_MODULE_PATH this
+[1.015s]   project has asked CMake to find a package configuration file provided by
+[1.015s]   "mycar_map_server", but CMake did not find one.
+[1.015s] 
+[1.015s]   Could not find a package configuration file provided by "mycar_map_server"
+[1.015s]   with any of the following names:
+[1.015s] 
+[1.015s]     mycar_map_serverConfig.cmake
+[1.015s]     mycar_map_server-config.cmake
+[1.015s] 
+[1.016s]   Add the installation prefix of "mycar_map_server" to CMAKE_PREFIX_PATH or
+[1.016s]   set "mycar_map_server_DIR" to a directory containing one of the above
+[1.017s]   files.  If "mycar_map_server" provides a separate development package or
+[1.017s]   SDK, be sure it has been installed.
+[1.017s] 
+[1.017s] [0m
+[1.017s] -- Configuring incomplete, errors occurred!
+[1.017s] See also "/home/lucas-fang/ros2_Nav_ws/build/localization_pkg/CMakeFiles/CMakeOutput.log".
+[1.023s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.032s] Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/localization_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/localization_pkg -- -j4 -l4

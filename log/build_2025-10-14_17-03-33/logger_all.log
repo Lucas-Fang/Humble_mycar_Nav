@@ -1,0 +1,482 @@
+[0.125s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.125s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7dddbf25cd30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7dddbf365c30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7dddbf365c30>>, mixin_verb=('build',))
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.312s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lucas-fang/ros2_Nav_ws'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'ros'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extensions ['cmake', 'python']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'cmake'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'python'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extensions ['python_setup_py']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'python_setup_py'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_driver_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_driver_pkg) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_driver_pkg) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_driver_pkg) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_driver_pkg) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_driver_pkg) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_driver_pkg) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_driver_pkg) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_driver_pkg) by extension 'ros'
+[0.332s] DEBUG:colcon.colcon_core.package_identification:Package 'src/base_driver_pkg' with type 'ros.ament_cmake' and name 'base_driver_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces) by extension 'ros'
+[0.334s] DEBUG:colcon.colcon_core.package_identification:Package 'src/base_interfaces' with type 'ros.ament_cmake' and name 'base_interfaces'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_pkg) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_pkg) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_pkg) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_pkg) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_pkg) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_pkg) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_pkg) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_pkg) by extension 'ros'
+[0.336s] DEBUG:colcon.colcon_core.package_identification:Package 'src/localization_pkg' with type 'ros.ament_cmake' and name 'localization_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[0.337s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/senson_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/senson_pkg) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/senson_pkg) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/senson_pkg) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/senson_pkg) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/senson_pkg) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/senson_pkg) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/senson_pkg) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/senson_pkg) by extension 'ros'
+[0.338s] DEBUG:colcon.colcon_core.package_identification:Package 'src/senson_pkg' with type 'ros.ament_cmake' and name 'senson_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_pkg) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_pkg) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_pkg) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_pkg) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_pkg) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_pkg) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_pkg) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_pkg) by extension 'ros'
+[0.340s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_pkg' with type 'ros.ament_cmake' and name 'serial_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.340s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.378s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.378s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.381s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/lucas-fang/ros2_Nav_ws/install
+[0.382s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 321 installed packages in /opt/ros/humble
+[0.384s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'base_driver_pkg' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'base_driver_pkg' build argument 'cmake_target' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'base_driver_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'base_driver_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'base_driver_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'base_driver_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'base_driver_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'base_driver_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'base_driver_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.434s] DEBUG:colcon.colcon_core.verb:Building package 'base_driver_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas-fang/ros2_Nav_ws/build/base_driver_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg', 'merge_install': False, 'path': '/home/lucas-fang/ros2_Nav_ws/src/base_driver_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.435s] DEBUG:colcon.colcon_core.verb:Building package 'base_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas-fang/ros2_Nav_ws/build/base_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces', 'merge_install': False, 'path': '/home/lucas-fang/ros2_Nav_ws/src/base_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'localization_pkg' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'localization_pkg' build argument 'cmake_target' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'localization_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'localization_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'localization_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'localization_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'localization_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'localization_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'localization_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.435s] DEBUG:colcon.colcon_core.verb:Building package 'localization_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas-fang/ros2_Nav_ws/build/localization_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg', 'merge_install': False, 'path': '/home/lucas-fang/ros2_Nav_ws/src/localization_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas-fang/ros2_Nav_ws/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros', 'merge_install': False, 'path': '/home/lucas-fang/ros2_Nav_ws/src/rplidar_ros', 'symlink_install': False, 'test_result_base': None}
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'senson_pkg' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'senson_pkg' build argument 'cmake_target' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'senson_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'senson_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'senson_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'senson_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'senson_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'senson_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'senson_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'senson_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas-fang/ros2_Nav_ws/build/senson_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg', 'merge_install': False, 'path': '/home/lucas-fang/ros2_Nav_ws/src/senson_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'serial_pkg' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'serial_pkg' build argument 'cmake_target' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'serial_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'serial_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'serial_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'serial_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'serial_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'serial_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'serial_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.438s] DEBUG:colcon.colcon_core.verb:Building package 'serial_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg', 'merge_install': False, 'path': '/home/lucas-fang/ros2_Nav_ws/src/serial_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.438s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.439s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.439s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucas-fang/ros2_Nav_ws/src/base_interfaces' with build type 'ament_cmake'
+[0.440s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucas-fang/ros2_Nav_ws/src/base_interfaces'
+[0.442s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.442s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.442s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.446s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucas-fang/ros2_Nav_ws/src/base_driver_pkg' with build type 'ament_cmake'
+[0.446s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucas-fang/ros2_Nav_ws/src/base_driver_pkg'
+[0.447s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.447s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.451s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucas-fang/ros2_Nav_ws/src/localization_pkg' with build type 'ament_cmake'
+[0.451s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucas-fang/ros2_Nav_ws/src/localization_pkg'
+[0.451s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.452s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.456s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucas-fang/ros2_Nav_ws/src/rplidar_ros' with build type 'ament_cmake'
+[0.456s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucas-fang/ros2_Nav_ws/src/rplidar_ros'
+[0.456s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.456s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/base_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/base_interfaces -- -j4 -l4
+[0.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/base_driver_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/base_driver_pkg -- -j4 -l4
+[0.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/localization_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/localization_pkg -- -j4 -l4
+[0.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/rplidar_ros -- -j4 -l4
+[0.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/localization_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/localization_pkg -- -j4 -l4
+[0.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/localization_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/localization_pkg
+[0.623s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(localization_pkg)
+[0.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/localization_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/localization_pkg
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg' for CMake module files
+[0.642s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg' for CMake config files
+[0.642s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization_pkg', 'cmake_prefix_path')
+[0.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg/share/localization_pkg/hook/cmake_prefix_path.ps1'
+[0.647s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg/share/localization_pkg/hook/cmake_prefix_path.dsv'
+[0.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg/share/localization_pkg/hook/cmake_prefix_path.sh'
+[0.655s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg/bin'
+[0.655s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg/lib/pkgconfig/localization_pkg.pc'
+[0.656s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg/lib/python3.10/site-packages'
+[0.656s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg/bin'
+[0.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg/share/localization_pkg/package.ps1'
+[0.660s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg/share/localization_pkg/package.dsv'
+[0.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg/share/localization_pkg/package.sh'
+[0.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg/share/localization_pkg/package.bash'
+[0.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg/share/localization_pkg/package.zsh'
+[0.678s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas-fang/ros2_Nav_ws/install/localization_pkg/share/colcon-core/packages/localization_pkg)
+[0.687s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(localization_pkg)
+[0.688s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg' for CMake module files
+[0.689s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg' for CMake config files
+[0.689s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization_pkg', 'cmake_prefix_path')
+[0.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg/share/localization_pkg/hook/cmake_prefix_path.ps1'
+[0.694s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg/share/localization_pkg/hook/cmake_prefix_path.dsv'
+[0.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg/share/localization_pkg/hook/cmake_prefix_path.sh'
+[0.696s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg/bin'
+[0.697s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg/lib/pkgconfig/localization_pkg.pc'
+[0.697s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg/lib/python3.10/site-packages'
+[0.697s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg/bin'
+[0.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg/share/localization_pkg/package.ps1'
+[0.700s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg/share/localization_pkg/package.dsv'
+[0.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg/share/localization_pkg/package.sh'
+[0.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg/share/localization_pkg/package.bash'
+[0.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/localization_pkg/share/localization_pkg/package.zsh'
+[0.707s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas-fang/ros2_Nav_ws/install/localization_pkg/share/colcon-core/packages/localization_pkg)
+[0.708s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucas-fang/ros2_Nav_ws/src/senson_pkg' with build type 'ament_cmake'
+[0.709s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucas-fang/ros2_Nav_ws/src/senson_pkg'
+[0.709s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.709s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/rplidar_ros -- -j4 -l4
+[0.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/rplidar_ros
+[0.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/senson_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/senson_pkg -- -j4 -l4
+[0.751s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[0.752s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros' for CMake module files
+[0.753s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros' for CMake config files
+[0.756s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[0.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[0.762s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[0.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/lib'
+[0.769s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/bin'
+[0.769s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/lib/python3.10/site-packages'
+[0.771s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/bin'
+[0.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/rplidar_ros
+[0.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[0.776s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[0.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[0.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[0.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[0.780s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[0.782s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[0.783s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros' for CMake module files
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros' for CMake config files
+[0.785s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[0.786s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[0.789s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[0.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[0.792s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/lib'
+[0.792s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/bin'
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/lib/python3.10/site-packages'
+[0.793s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/bin'
+[0.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[0.797s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[0.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[0.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[0.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[0.802s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[0.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/senson_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/senson_pkg -- -j4 -l4
+[0.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/senson_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/senson_pkg
+[0.976s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(senson_pkg)
+[0.977s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg' for CMake module files
+[0.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/senson_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/senson_pkg
+[0.978s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg' for CMake config files
+[0.978s] Level 1:colcon.colcon_core.shell:create_environment_hook('senson_pkg', 'cmake_prefix_path')
+[0.979s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/hook/cmake_prefix_path.ps1'
+[0.979s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/hook/cmake_prefix_path.dsv'
+[0.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/hook/cmake_prefix_path.sh'
+[0.981s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/lib'
+[0.981s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/bin'
+[0.981s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/lib/pkgconfig/senson_pkg.pc'
+[0.982s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/lib/python3.10/site-packages'
+[0.982s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/bin'
+[0.982s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/package.ps1'
+[0.983s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/package.dsv'
+[0.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/package.sh'
+[0.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/package.bash'
+[0.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/package.zsh'
+[0.986s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/colcon-core/packages/senson_pkg)
+[0.987s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(senson_pkg)
+[0.987s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg' for CMake module files
+[0.988s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg' for CMake config files
+[0.988s] Level 1:colcon.colcon_core.shell:create_environment_hook('senson_pkg', 'cmake_prefix_path')
+[0.989s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/hook/cmake_prefix_path.ps1'
+[0.989s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/hook/cmake_prefix_path.dsv'
+[0.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/hook/cmake_prefix_path.sh'
+[0.991s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/lib'
+[0.991s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/bin'
+[0.991s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/lib/pkgconfig/senson_pkg.pc'
+[0.991s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/lib/python3.10/site-packages'
+[0.992s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/bin'
+[0.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/package.ps1'
+[0.993s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/package.dsv'
+[0.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/package.sh'
+[0.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/package.bash'
+[0.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/package.zsh'
+[0.996s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/colcon-core/packages/senson_pkg)
+[1.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/base_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/base_interfaces -- -j4 -l4
+[1.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/base_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/base_interfaces
+[1.250s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_interfaces)
+[1.250s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces' for CMake module files
+[1.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/base_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/base_interfaces
+[1.254s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces' for CMake config files
+[1.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces', 'cmake_prefix_path')
+[1.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/hook/cmake_prefix_path.ps1'
+[1.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/hook/cmake_prefix_path.dsv'
+[1.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/hook/cmake_prefix_path.sh'
+[1.259s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib'
+[1.259s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces', 'ld_library_path_lib')
+[1.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/hook/ld_library_path_lib.ps1'
+[1.260s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/hook/ld_library_path_lib.dsv'
+[1.261s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/hook/ld_library_path_lib.sh'
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/bin'
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib/pkgconfig/base_interfaces.pc'
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib/python3.10/site-packages'
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/bin'
+[1.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/package.ps1'
+[1.264s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/package.dsv'
+[1.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/package.sh'
+[1.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/package.bash'
+[1.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/package.zsh'
+[1.267s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/colcon-core/packages/base_interfaces)
+[1.268s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_interfaces)
+[1.268s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces' for CMake module files
+[1.269s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces' for CMake config files
+[1.270s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces', 'cmake_prefix_path')
+[1.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/hook/cmake_prefix_path.ps1'
+[1.273s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/hook/cmake_prefix_path.dsv'
+[1.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/hook/cmake_prefix_path.sh'
+[1.275s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib'
+[1.275s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces', 'ld_library_path_lib')
+[1.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/hook/ld_library_path_lib.ps1'
+[1.276s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/hook/ld_library_path_lib.dsv'
+[1.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/hook/ld_library_path_lib.sh'
+[1.279s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/bin'
+[1.279s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib/pkgconfig/base_interfaces.pc'
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib/python3.10/site-packages'
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/bin'
+[1.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/package.ps1'
+[1.282s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/package.dsv'
+[1.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/package.sh'
+[1.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/package.bash'
+[1.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/package.zsh'
+[1.287s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/colcon-core/packages/base_interfaces)
+[1.289s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucas-fang/ros2_Nav_ws/src/serial_pkg' with build type 'ament_cmake'
+[1.290s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucas-fang/ros2_Nav_ws/src/serial_pkg'
+[1.290s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.290s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg': CMAKE_PREFIX_PATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/home/lucas-fang/ros2_Nav_ws/install/serial_pkg:/home/lucas-fang/ros2_Nav_ws/install/senson_pkg:/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros:/home/lucas-fang/ros2_Nav_ws/install/localization_pkg:/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/serial_pkg -- -j4 -l4
+[1.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg' returned '0': CMAKE_PREFIX_PATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/home/lucas-fang/ros2_Nav_ws/install/serial_pkg:/home/lucas-fang/ros2_Nav_ws/install/senson_pkg:/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros:/home/lucas-fang/ros2_Nav_ws/install/localization_pkg:/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/serial_pkg -- -j4 -l4
+[1.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg': CMAKE_PREFIX_PATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/home/lucas-fang/ros2_Nav_ws/install/serial_pkg:/home/lucas-fang/ros2_Nav_ws/install/senson_pkg:/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros:/home/lucas-fang/ros2_Nav_ws/install/localization_pkg:/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg:/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/serial_pkg
+[1.545s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_pkg)
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg' for CMake module files
+[1.548s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg' for CMake config files
+[1.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg' returned '0': CMAKE_PREFIX_PATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/home/lucas-fang/ros2_Nav_ws/install/serial_pkg:/home/lucas-fang/ros2_Nav_ws/install/senson_pkg:/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros:/home/lucas-fang/ros2_Nav_ws/install/localization_pkg:/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg:/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/serial_pkg
+[1.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_pkg', 'cmake_prefix_path')
+[1.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/hook/cmake_prefix_path.ps1'
+[1.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/hook/cmake_prefix_path.dsv'
+[1.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/hook/cmake_prefix_path.sh'
+[1.553s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib'
+[1.554s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/bin'
+[1.554s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/pkgconfig/serial_pkg.pc'
+[1.554s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/python3.10/site-packages'
+[1.554s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/bin'
+[1.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/package.ps1'
+[1.558s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/package.dsv'
+[1.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/package.sh'
+[1.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/package.bash'
+[1.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/package.zsh'
+[1.564s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/colcon-core/packages/serial_pkg)
+[1.564s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_pkg)
+[1.565s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg' for CMake module files
+[1.566s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg' for CMake config files
+[1.566s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_pkg', 'cmake_prefix_path')
+[1.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/hook/cmake_prefix_path.ps1'
+[1.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/hook/cmake_prefix_path.dsv'
+[1.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/hook/cmake_prefix_path.sh'
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib'
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/bin'
+[1.571s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/pkgconfig/serial_pkg.pc'
+[1.571s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/python3.10/site-packages'
+[1.572s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/bin'
+[1.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/package.ps1'
+[1.573s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/package.dsv'
+[1.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/package.sh'
+[1.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/package.bash'
+[1.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/package.zsh'
+[1.578s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/colcon-core/packages/serial_pkg)
+[15.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/base_driver_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/base_driver_pkg -- -j4 -l4
+[15.765s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/base_driver_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/base_driver_pkg
+[15.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_driver_pkg)
+[15.789s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg' for CMake module files
+[15.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/base_driver_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/base_driver_pkg
+[15.791s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg' for CMake config files
+[15.791s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_driver_pkg', 'cmake_prefix_path')
+[15.792s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/hook/cmake_prefix_path.ps1'
+[15.792s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/hook/cmake_prefix_path.dsv'
+[15.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/hook/cmake_prefix_path.sh'
+[15.794s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/lib'
+[15.794s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/bin'
+[15.794s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/lib/pkgconfig/base_driver_pkg.pc'
+[15.795s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/lib/python3.10/site-packages'
+[15.795s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/bin'
+[15.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/package.ps1'
+[15.796s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/package.dsv'
+[15.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/package.sh'
+[15.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/package.bash'
+[15.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/package.zsh'
+[15.798s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/colcon-core/packages/base_driver_pkg)
+[15.799s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_driver_pkg)
+[15.800s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg' for CMake module files
+[15.801s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg' for CMake config files
+[15.801s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_driver_pkg', 'cmake_prefix_path')
+[15.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/hook/cmake_prefix_path.ps1'
+[15.802s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/hook/cmake_prefix_path.dsv'
+[15.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/hook/cmake_prefix_path.sh'
+[15.804s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/lib'
+[15.804s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/bin'
+[15.804s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/lib/pkgconfig/base_driver_pkg.pc'
+[15.804s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/lib/python3.10/site-packages'
+[15.804s] Level 1:colcon.colcon_core.environment:checking '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/bin'
+[15.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/package.ps1'
+[15.805s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/package.dsv'
+[15.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/package.sh'
+[15.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/package.bash'
+[15.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/package.zsh'
+[15.808s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/colcon-core/packages/base_driver_pkg)
+[15.808s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.809s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.809s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.809s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.817s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[15.817s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.817s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.817s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.844s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.844s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lucas-fang/ros2_Nav_ws/install/local_setup.ps1'
+[15.847s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lucas-fang/ros2_Nav_ws/install/_local_setup_util_ps1.py'
+[15.850s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lucas-fang/ros2_Nav_ws/install/setup.ps1'
+[15.854s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lucas-fang/ros2_Nav_ws/install/local_setup.sh'
+[15.855s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lucas-fang/ros2_Nav_ws/install/_local_setup_util_sh.py'
+[15.857s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lucas-fang/ros2_Nav_ws/install/setup.sh'
+[15.860s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lucas-fang/ros2_Nav_ws/install/local_setup.bash'
+[15.861s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lucas-fang/ros2_Nav_ws/install/setup.bash'
+[15.864s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lucas-fang/ros2_Nav_ws/install/local_setup.zsh'
+[15.865s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lucas-fang/ros2_Nav_ws/install/setup.zsh'

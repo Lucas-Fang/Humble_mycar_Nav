@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ebb16b49845c86578784.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "serial_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "chat_stm32::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chat_stm32-ee473d306ad8cbafdddf.json",
+					"name" : "chat_stm32",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "get_imu_ros2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-get_imu_ros2-d44cebdaee93752431b1.json",
+					"name" : "get_imu_ros2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_serial_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_serial_lib-05506256de9af09324e0.json",
+					"name" : "my_serial_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "odom::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-odom-ffbb3b33210d8480fc0e.json",
+					"name" : "odom",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_pkg_uninstall-621cdfb9bae067a1312d.json",
+					"name" : "serial_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c624ae05d74441870b01.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lucas-fang/ros2_Nav_ws/build/serial_pkg",
+		"source" : "/home/lucas-fang/ros2_Nav_ws/src/serial_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

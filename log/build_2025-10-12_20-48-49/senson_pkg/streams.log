@@ -1,0 +1,28 @@
+[0.030s] Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/senson_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/senson_pkg -- -j4 -l4
+[0.092s] [ 60%] Built target my_serial_lib
+[0.126s] [ 80%] [32mBuilding CXX object CMakeFiles/imu_node.dir/src/imu_node.cpp.o[0m
+[5.663s] [100%] [32m[1mLinking CXX executable imu_node[0m
+[5.975s] [100%] Built target imu_node
+[5.984s] Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/senson_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/senson_pkg -- -j4 -l4
+[5.986s] Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/senson_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/senson_pkg
+[5.994s] -- Install configuration: ""
+[5.994s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/lib/senson_pkg/imu_node
+[5.996s] -- Set runtime path of "/home/lucas-fang/ros2_Nav_ws/install/senson_pkg/lib/senson_pkg/imu_node" to ""
+[5.996s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/launch
+[5.996s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/launch/senson_launch.py
+[5.996s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/ament_index/resource_index/package_run_dependencies/senson_pkg
+[5.996s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/ament_index/resource_index/parent_prefix_path/senson_pkg
+[5.996s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/environment/ament_prefix_path.sh
+[5.997s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/environment/ament_prefix_path.dsv
+[5.997s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/environment/path.sh
+[5.997s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/environment/path.dsv
+[5.997s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/local_setup.bash
+[5.997s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/local_setup.sh
+[5.997s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/local_setup.zsh
+[5.997s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/local_setup.dsv
+[5.997s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/package.dsv
+[5.998s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/ament_index/resource_index/packages/senson_pkg
+[5.998s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/cmake/senson_pkgConfig.cmake
+[5.998s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/cmake/senson_pkgConfig-version.cmake
+[5.998s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/senson_pkg/share/senson_pkg/package.xml
+[6.000s] Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/senson_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/senson_pkg

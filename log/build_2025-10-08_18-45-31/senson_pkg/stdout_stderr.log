@@ -1,0 +1,15 @@
+[ 50%] Built target my_serial_lib
+[35m[1mConsolidate compiler generated dependencies of target imu_node[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/imu_node.dir/src/imu_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable imu_node[0m
+/usr/bin/ld: CMakeFiles/imu_node.dir/src/imu_node.cpp.o: in function `Serial_Node::Serial_Node()':
+imu_node.cpp:(.text._ZN11Serial_NodeC2Ev[_ZN11Serial_NodeC5Ev]+0x1f3): undefined reference to `IMUDriver::IMUDriver()'
+/usr/bin/ld: imu_node.cpp:(.text._ZN11Serial_NodeC2Ev[_ZN11Serial_NodeC5Ev]+0xf72): undefined reference to `IMUDriver::~IMUDriver()'
+/usr/bin/ld: CMakeFiles/imu_node.dir/src/imu_node.cpp.o: in function `Serial_Node::async_receive_message()::{lambda(std::vector<unsigned char, std::allocator<unsigned char> > const&, unsigned long const&)#1}::operator()(std::vector<unsigned char, std::allocator<unsigned char> > const&, unsigned long const&) const':
+imu_node.cpp:(.text._ZZN11Serial_Node21async_receive_messageEvENKUlRKSt6vectorIhSaIhEERKmE_clES4_S6_[_ZZN11Serial_Node21async_receive_messageEvENKUlRKSt6vectorIhSaIhEERKmE_clES4_S6_]+0x111): undefined reference to `IMUDriver::get_imu_data(std::vector<unsigned char, std::allocator<unsigned char> >)'
+/usr/bin/ld: CMakeFiles/imu_node.dir/src/imu_node.cpp.o: in function `Serial_Node::~Serial_Node()':
+imu_node.cpp:(.text._ZN11Serial_NodeD2Ev[_ZN11Serial_NodeD5Ev]+0x2c): undefined reference to `IMUDriver::~IMUDriver()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/imu_node.dir/build.make:287: imu_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/imu_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

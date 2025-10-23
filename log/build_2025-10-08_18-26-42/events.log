@@ -1,0 +1,136 @@
+[0.000000] (-) TimerEvent: {}
+[0.000441] (-) JobUnselected: {'identifier': 'base_driver_pkg'}
+[0.000599] (-) JobUnselected: {'identifier': 'base_interfaces'}
+[0.000733] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.000757] (-) JobUnselected: {'identifier': 'serial_pkg'}
+[0.000778] (senson_pkg) JobQueued: {'identifier': 'senson_pkg', 'dependencies': OrderedDict()}
+[0.000802] (senson_pkg) JobStarted: {'identifier': 'senson_pkg'}
+[0.008116] (senson_pkg) JobProgress: {'identifier': 'senson_pkg', 'progress': 'cmake'}
+[0.008781] (senson_pkg) JobProgress: {'identifier': 'senson_pkg', 'progress': 'build'}
+[0.009480] (senson_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lucas-fang/ros2_Nav_ws/build/senson_pkg', '--', '-j4', '-l4'], 'cwd': '/home/lucas-fang/ros2_Nav_ws/build/senson_pkg', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lucas-fang'), ('SSH_CLIENT', '192.168.70.195 35274 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/lucas-fang/.vscode-server/cli/servers/Stable-385651c938df8a906869babee516bffd0ddb9829/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/lucas-fang/.vscode-server/cli/servers/Stable-385651c938df8a906869babee516bffd0ddb9829/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lucas-fang'), ('OLDPWD', '/home/lucas-fang/ros2_Nav_ws/src'), ('TERM_PROGRAM_VERSION', '1.104.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b0eb74d6-ae9f-4407-97c7-d8753831291b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/lucas-fang/.vscode-server/cli/servers/Stable-385651c938df8a906869babee516bffd0ddb9829/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/lucas-fang/.vscode-server/cli/servers/Stable-385651c938df8a906869babee516bffd0ddb9829/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/lucas-fang/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lucas-fang/ros2_Nav_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lucas-fang'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '15'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lucas-fang/.vscode-server/cli/servers/Stable-385651c938df8a906869babee516bffd0ddb9829/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/lucas-fang/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/lucas-fang/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lucas-fang/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-d67a174d51a1057f.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/lucas-fang/.vscode-server/data/User/workspaceStorage/47b21b766c4e2b89697148b3263902fc/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-71a3b954ea.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg:/home/lucas-fang/ros2_Nav_ws/install/serial_pkg:/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros:/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg:/opt/ros/humble'), ('CRASHDIR', '/etc/ShellCrash'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/lucas-fang/ros2_Nav_ws/build/senson_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.70.195 35274 192.168.70.123 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lucas-fang/ros2_Nav_ws/install/senson_pkg:/home/lucas-fang/ros2_Nav_ws/install/serial_pkg:/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros:/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg:/opt/ros/humble')]), 'shell': False}
+[0.058041] (senson_pkg) StdoutLine: {'line': b'[ 50%] Built target my_serial_lib\n'}
+[0.075929] (senson_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target imu_node\x1b[0m\n'}
+[0.098049] (senson_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/imu_node.dir/src/imu_node.cpp.o\x1b[0m\n'}
+[0.099800] (-) TimerEvent: {}
+[0.200117] (-) TimerEvent: {}
+[0.300420] (-) TimerEvent: {}
+[0.400728] (-) TimerEvent: {}
+[0.501081] (-) TimerEvent: {}
+[0.601425] (-) TimerEvent: {}
+[0.701776] (-) TimerEvent: {}
+[0.802071] (-) TimerEvent: {}
+[0.902407] (-) TimerEvent: {}
+[1.002764] (-) TimerEvent: {}
+[1.103098] (-) TimerEvent: {}
+[1.203443] (-) TimerEvent: {}
+[1.303765] (-) TimerEvent: {}
+[1.404095] (-) TimerEvent: {}
+[1.504427] (-) TimerEvent: {}
+[1.604787] (-) TimerEvent: {}
+[1.705168] (-) TimerEvent: {}
+[1.805527] (-) TimerEvent: {}
+[1.905869] (-) TimerEvent: {}
+[2.006173] (-) TimerEvent: {}
+[2.106523] (-) TimerEvent: {}
+[2.206966] (-) TimerEvent: {}
+[2.307276] (-) TimerEvent: {}
+[2.407607] (-) TimerEvent: {}
+[2.507952] (-) TimerEvent: {}
+[2.608282] (-) TimerEvent: {}
+[2.708634] (-) TimerEvent: {}
+[2.808969] (-) TimerEvent: {}
+[2.896693] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:269:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[2.896925] (senson_pkg) StderrLine: {'line': b'  269 | }\n'}
+[2.897017] (senson_pkg) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.897095] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:34:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.897176] (senson_pkg) StderrLine: {'line': b'   34 | \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[2.897240] (senson_pkg) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.904581] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KSerial_Node::Serial_Node()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.904775] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:39:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kimu_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.904851] (senson_pkg) StderrLine: {'line': b'   39 |     \x1b[01;31m\x1b[Kimu_pub_\x1b[m\x1b[K = this->create_publisher<sensor_msgs::msg::Imu>("imu/data", 10);\n'}
+[2.904921] (senson_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.909062] (-) TimerEvent: {}
+[2.916992] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:57:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kio_context_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KIoContext\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.917180] (senson_pkg) StderrLine: {'line': b'   57 |       \x1b[01;31m\x1b[Kio_context_\x1b[m\x1b[K = std::make_shared<drivers::common::IoContext>(1);\n'}
+[2.917254] (senson_pkg) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.917320] (senson_pkg) StderrLine: {'line': b'      |       \x1b[32m\x1b[KIoContext\x1b[m\x1b[K\n'}
+[2.928496] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:59:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kserial_driver_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.928690] (senson_pkg) StderrLine: {'line': b'   59 |       \x1b[01;31m\x1b[Kserial_driver_\x1b[m\x1b[K = std::make_shared<drivers::serial_driver::SerialDriver>(*io_context_);\n'}
+[2.928765] (senson_pkg) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.939952] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Serial_Node::check_and_connect()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.940147] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:88:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kserial_driver_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.940229] (senson_pkg) StderrLine: {'line': b'   88 |     if (\x1b[01;31m\x1b[Kserial_driver_\x1b[m\x1b[K && serial_driver_->port()->is_open()) {\n'}
+[2.940301] (senson_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.949741] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:117:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kio_context_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KIoContext\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.949932] (senson_pkg) StderrLine: {'line': b'  117 |       \x1b[01;31m\x1b[Kio_context_\x1b[m\x1b[K = std::make_shared<drivers::common::IoContext>(1);\n'}
+[2.950006] (senson_pkg) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.950073] (senson_pkg) StderrLine: {'line': b'      |       \x1b[32m\x1b[KIoContext\x1b[m\x1b[K\n'}
+[2.959167] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:118:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kserial_driver_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.959361] (senson_pkg) StderrLine: {'line': b'  118 |       \x1b[01;31m\x1b[Kserial_driver_\x1b[m\x1b[K = std::make_shared<drivers::serial_driver::SerialDriver>(*io_context_);\n'}
+[2.959446] (senson_pkg) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.969590] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:133:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kserial_driver_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.969769] (senson_pkg) StderrLine: {'line': b'  133 |       \x1b[01;31m\x1b[Kserial_driver_\x1b[m\x1b[K.reset();\n'}
+[2.969843] (senson_pkg) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.979145] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Serial_Node::async_receive_message()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.979350] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:140:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kserial_driver_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.979427] (senson_pkg) StderrLine: {'line': b'  140 |     auto port = \x1b[01;31m\x1b[Kserial_driver_\x1b[m\x1b[K->port();\n'}
+[2.979519] (senson_pkg) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.987343] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[2.987551] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:144:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krecv_buffer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.987635] (senson_pkg) StderrLine: {'line': b'  144 |         \x1b[01;31m\x1b[Krecv_buffer_\x1b[m\x1b[K.insert(recv_buffer_.end(), data.begin(), data.begin() + size);\n'}
+[2.987701] (senson_pkg) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.995619] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Serial_Node::parse_buffer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.995809] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:154:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krecv_buffer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.995896] (senson_pkg) StderrLine: {'line': b'  154 |     while (\x1b[01;31m\x1b[Krecv_buffer_\x1b[m\x1b[K.size() >= 19) { // \xe8\x87\xb3\xe5\xb0\x91\xe4\xb8\x80\xe5\xb8\xa7\n'}
+[2.995965] (senson_pkg) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.000783] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:166:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kq\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.000966] (senson_pkg) StderrLine: {'line': b'  166 |             std::memcpy(&\x1b[01;31m\x1b[Kq\x1b[m\x1b[K.x, &frame[4], 4);\n'}
+[3.001045] (senson_pkg) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.001384] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:171:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktf_q\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.001622] (senson_pkg) StderrLine: {'line': b'  171 |             tf2::Quaternion \x1b[01;35m\x1b[Ktf_q\x1b[m\x1b[K(q.x, q.y, q.z, q.w);\n'}
+[3.001727] (senson_pkg) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.001800] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:190:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> > frame\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.001872] (senson_pkg) StderrLine: {'line': b'  190 |         std::vector<uint8_t> \x1b[01;31m\x1b[Kframe\x1b[m\x1b[K(recv_buffer_.begin(), recv_buffer_.begin() + 19);\n'}
+[3.001942] (senson_pkg) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.002010] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:161:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> > frame\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[3.002079] (senson_pkg) StderrLine: {'line': b'  161 |           std::vector<uint8_t> \x1b[01;36m\x1b[Kframe\x1b[m\x1b[K(recv_buffer_.begin(), recv_buffer_.begin() + 23);\n'}
+[3.002146] (senson_pkg) StderrLine: {'line': b'      |                                \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.002212] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:193:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kuint16_t crc_in_frame\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.002281] (senson_pkg) StderrLine: {'line': b'  193 |         uint16_t \x1b[01;31m\x1b[Kcrc_in_frame\x1b[m\x1b[K = (uint16_t)frame[16] | ((uint16_t)frame[17] << 8);\n'}
+[3.002349] (senson_pkg) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.002416] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:162:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint16_t crc_in_frame\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[3.002499] (senson_pkg) StderrLine: {'line': b'  162 |           uint16_t \x1b[01;36m\x1b[Kcrc_in_frame\x1b[m\x1b[K = (uint16_t)frame[20] | ((uint16_t)frame[21] << 8);\n'}
+[3.002570] (senson_pkg) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.002637] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:194:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kuint16_t crc_calc\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.002704] (senson_pkg) StderrLine: {'line': b'  194 |         uint16_t \x1b[01;31m\x1b[Kcrc_calc\x1b[m\x1b[K = imu_driver::Get_CRC16(frame.data(), 16);\n'}
+[3.002771] (senson_pkg) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.002839] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:163:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kuint16_t crc_calc\x1b[m\x1b[K\xe2\x80\x99 previously declared here\n'}
+[3.002906] (senson_pkg) StderrLine: {'line': b'  163 |           uint16_t \x1b[01;36m\x1b[Kcrc_calc\x1b[m\x1b[K = imu_driver::Get_CRC16(frame.data(), 20);\n'}
+[3.002973] (senson_pkg) StderrLine: {'line': b'      |                    \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.007491] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:200:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kimu\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.007683] (senson_pkg) StderrLine: {'line': b'  200 |                 std::memcpy(&\x1b[01;31m\x1b[Kimu\x1b[m\x1b[K.accx,  &frame[4], 4);\n'}
+[3.007765] (senson_pkg) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.009134] (-) TimerEvent: {}
+[3.012723] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:258:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.012914] (senson_pkg) StderrLine: {'line': b'  258 |   Quaternion \x1b[01;35m\x1b[Kq\x1b[m\x1b[K;IMU_Data imu{};\n'}
+[3.012995] (senson_pkg) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.013064] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:258:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kimu\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.013144] (senson_pkg) StderrLine: {'line': b'  258 |   Quaternion q;IMU_Data \x1b[01;35m\x1b[Kimu\x1b[m\x1b[K{};\n'}
+[3.013211] (senson_pkg) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.016917] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:\x1b[m\x1b[K At global scope:\n'}
+[3.017134] (senson_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_node.cpp:269:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id at end of input\n'}
+[3.017215] (senson_pkg) StderrLine: {'line': b'  269 | }\n'}
+[3.017286] (senson_pkg) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.109284] (-) TimerEvent: {}
+[3.209633] (-) TimerEvent: {}
+[3.309954] (-) TimerEvent: {}
+[3.410304] (-) TimerEvent: {}
+[3.510619] (-) TimerEvent: {}
+[3.610952] (-) TimerEvent: {}
+[3.711300] (-) TimerEvent: {}
+[3.717749] (senson_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/imu_node.dir/build.make:76: CMakeFiles/imu_node.dir/src/imu_node.cpp.o] Error 1\n'}
+[3.717996] (senson_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/imu_node.dir/all] Error 2\n'}
+[3.718266] (senson_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.720088] (senson_pkg) CommandEnded: {'returncode': 2}
+[3.731378] (senson_pkg) JobEnded: {'identifier': 'senson_pkg', 'rc': 2}
+[3.742005] (-) EventReactorShutdown: {}

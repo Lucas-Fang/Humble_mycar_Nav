@@ -1,0 +1,8 @@
+[01m[K/home/lucas-fang/ros2_Nav_ws/src/serial_pkg/src/get_imu_ros2.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kbaser_interfaces/msg/imu.hpp: No such file or directory
+    9 | #include [01;31m[K"baser_interfaces/msg/imu.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/get_imu_ros2.dir/build.make:76: CMakeFiles/get_imu_ros2.dir/src/get_imu_ros2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/get_imu_ros2.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

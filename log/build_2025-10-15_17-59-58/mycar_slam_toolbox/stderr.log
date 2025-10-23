@@ -1,0 +1,12 @@
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_EXPORT_COMPILE_COMMANDS
+
+[0m
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/lucas-fang/ros2_Nav_ws/src/mycar_slam_toolbox/params": No such file
+  or directory.
+
+[0m

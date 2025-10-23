@@ -1,0 +1,2 @@
+Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/get_IMU': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas-fang/ros2_Nav_ws/src/get_IMU -DCMAKE_INSTALL_PREFIX=/home/lucas-fang/ros2_Nav_ws/install/get_IMU
+Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/get_IMU' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lucas-fang/ros2_Nav_ws/src/get_IMU -DCMAKE_INSTALL_PREFIX=/home/lucas-fang/ros2_Nav_ws/install/get_IMU

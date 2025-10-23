@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "base_interfaces__py",
+		"source" : "/home/lucas-fang/ros2_Nav_ws/build/base_interfaces/base_interfaces__py"
+	}
+}

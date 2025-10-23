@@ -1,0 +1,5 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/my_serial_lib.dir/src/crc16.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/imu_node.dir/src/imu_node.cpp.o[0m
+[ 75%] [32m[1mLinking CXX static library libmy_serial_lib.a[0m
+[ 75%] Built target my_serial_lib
+[100%] [32m[1mLinking CXX executable imu_node[0m

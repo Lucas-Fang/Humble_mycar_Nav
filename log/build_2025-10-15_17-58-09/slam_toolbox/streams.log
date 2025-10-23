@@ -1,0 +1,62 @@
+[0.020s] Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/slam_toolbox': /usr/bin/cmake /home/lucas-fang/ros2_Nav_ws/src/slam_toolbox -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/lucas-fang/ros2_Nav_ws/install/slam_toolbox
+[0.039s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.205s] -- Found slam_toolbox: 2.6.10 (/opt/ros/humble/share/slam_toolbox/cmake)
+[0.232s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.235s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.241s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.251s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.263s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.410s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.410s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.553s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.700s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.702s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.732s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[0.736s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.737s] -- Found OGRE
+[0.737s] --   static     : OFF
+[0.737s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.737s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.737s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.738s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.738s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[0.738s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.738s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[0.738s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.739s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.739s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.739s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.739s] -- Could not find freeimage library
+[0.822s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.910s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.977s] Error parsing '/home/lucas-fang/ros2_Nav_ws/src/slam_toolbox/package.xml':
+[1.036s] Traceback (most recent call last):
+[1.036s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.036s]     main()
+[1.037s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.038s]     raise e
+[1.038s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.038s]     package = parse_package_string(
+[1.038s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[1.038s]     pkg.validate(warnings=warnings)
+[1.038s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[1.038s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[1.038s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/lucas-fang/ros2_Nav_ws/src/slam_toolbox/package.xml':
+[1.038s] The package "slam_toolbox" must not "build_depend" on a package with the same name as this package
+[1.038s] The package "slam_toolbox" must not "build_export_depend" on a package with the same name as this package
+[1.038s] The package "slam_toolbox" must not "exec_depend" on a package with the same name as this package
+[1.059s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.061s]   execute_process(/usr/bin/python3
+[1.062s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.062s]   /home/lucas-fang/ros2_Nav_ws/src/slam_toolbox/package.xml
+[1.062s]   /home/lucas-fang/ros2_Nav_ws/build/slam_toolbox/ament_cmake_core/package.cmake)
+[1.062s]   returned error code 1
+[1.062s] Call Stack (most recent call first):
+[1.062s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.062s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.062s]   CMakeLists.txt:25 (ament_lint_auto_find_test_dependencies)
+[1.062s] 
+[1.062s] [0m
+[1.062s] -- Configuring incomplete, errors occurred!
+[1.063s] See also "/home/lucas-fang/ros2_Nav_ws/build/slam_toolbox/CMakeFiles/CMakeOutput.log".
+[1.085s] Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/slam_toolbox' returned '1': /usr/bin/cmake /home/lucas-fang/ros2_Nav_ws/src/slam_toolbox -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/lucas-fang/ros2_Nav_ws/install/slam_toolbox

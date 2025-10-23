@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:18 (target_include_directories):
+  Cannot specify include directories for target "crc16.h" which is not built
+  by this project.
+
+[0m
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1

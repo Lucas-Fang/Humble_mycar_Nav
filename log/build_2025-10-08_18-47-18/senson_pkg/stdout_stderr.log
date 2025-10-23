@@ -1,0 +1,18 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/my_serial_lib.dir/src/imu_driver.cpp.o[0m
+[01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_driver.cpp:[m[K In member function ‘[01m[KIMU_Data IMUDriver::get_imu_data(std::vector<unsigned char, std::allocator<unsigned char> >)[m[K’:
+[01m[K/home/lucas-fang/ros2_Nav_ws/src/senson_pkg/src/imu_driver.cpp:83:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   83 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[ 40%] [32m[1mLinking CXX static library libmy_serial_lib.a[0m
+[ 60%] Built target my_serial_lib
+[ 80%] [32mBuilding CXX object CMakeFiles/imu_node.dir/src/imu_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable imu_node[0m
+/usr/bin/ld: CMakeFiles/imu_node.dir/src/imu_node.cpp.o: in function `Serial_Node::Serial_Node()':
+imu_node.cpp:(.text._ZN11Serial_NodeC2Ev[_ZN11Serial_NodeC5Ev]+0x1f3): undefined reference to `IMUDriver::IMUDriver()'
+/usr/bin/ld: imu_node.cpp:(.text._ZN11Serial_NodeC2Ev[_ZN11Serial_NodeC5Ev]+0xf72): undefined reference to `IMUDriver::~IMUDriver()'
+/usr/bin/ld: CMakeFiles/imu_node.dir/src/imu_node.cpp.o: in function `Serial_Node::~Serial_Node()':
+imu_node.cpp:(.text._ZN11Serial_NodeD2Ev[_ZN11Serial_NodeD5Ev]+0x2c): undefined reference to `IMUDriver::~IMUDriver()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/imu_node.dir/build.make:287: imu_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/imu_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

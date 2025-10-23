@@ -1,0 +1,16 @@
+/home/lucas-fang/ros2_Nav_ws/install/my_map_server/share/my_map_server/launch/read_map_server.launch.py
+/home/lucas-fang/ros2_Nav_ws/install/my_map_server/share/ament_index/resource_index/package_run_dependencies/my_map_server
+/home/lucas-fang/ros2_Nav_ws/install/my_map_server/share/ament_index/resource_index/parent_prefix_path/my_map_server
+/home/lucas-fang/ros2_Nav_ws/install/my_map_server/share/my_map_server/environment/ament_prefix_path.sh
+/home/lucas-fang/ros2_Nav_ws/install/my_map_server/share/my_map_server/environment/ament_prefix_path.dsv
+/home/lucas-fang/ros2_Nav_ws/install/my_map_server/share/my_map_server/environment/path.sh
+/home/lucas-fang/ros2_Nav_ws/install/my_map_server/share/my_map_server/environment/path.dsv
+/home/lucas-fang/ros2_Nav_ws/install/my_map_server/share/my_map_server/local_setup.bash
+/home/lucas-fang/ros2_Nav_ws/install/my_map_server/share/my_map_server/local_setup.sh
+/home/lucas-fang/ros2_Nav_ws/install/my_map_server/share/my_map_server/local_setup.zsh
+/home/lucas-fang/ros2_Nav_ws/install/my_map_server/share/my_map_server/local_setup.dsv
+/home/lucas-fang/ros2_Nav_ws/install/my_map_server/share/my_map_server/package.dsv
+/home/lucas-fang/ros2_Nav_ws/install/my_map_server/share/ament_index/resource_index/packages/my_map_server
+/home/lucas-fang/ros2_Nav_ws/install/my_map_server/share/my_map_server/cmake/my_map_serverConfig.cmake
+/home/lucas-fang/ros2_Nav_ws/install/my_map_server/share/my_map_server/cmake/my_map_serverConfig-version.cmake
+/home/lucas-fang/ros2_Nav_ws/install/my_map_server/share/my_map_server/package.xml
