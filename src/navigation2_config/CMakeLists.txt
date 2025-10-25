@@ -10,6 +10,10 @@ find_package(ament_cmake REQUIRED)
 find_package(navigation2 REQUIRED)
 find_package(nav2_common REQUIRED)
 
+install(DIRECTORY launch params bts
+  DESTINATION share/${PROJECT_NAME}
+)
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights
