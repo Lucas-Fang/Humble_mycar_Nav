@@ -79,7 +79,7 @@ class Chat_STM32: public rclcpp::Node
 
     std::vector<uint8_t> send_data(send_buf, send_buf + 16);
     try{
-        serial_driver_->port()->send(send_data);
+        // serial_driver_->port()->send(send_data);
         // RCLCPP_INFO(this->get_logger(),"发送数据： roll:%.2f , pitch:%.2f , yaw:%.2f",
         //     roll,pitch,yaw);
         std::ostringstream oss;

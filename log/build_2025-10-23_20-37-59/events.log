@@ -1,0 +1,135 @@
+[0.000000] (-) TimerEvent: {}
+[0.000406] (-) JobUnselected: {'identifier': 'base_interfaces'}
+[0.000556] (-) JobUnselected: {'identifier': 'localization_pkg'}
+[0.000691] (-) JobUnselected: {'identifier': 'my_map_server'}
+[0.000712] (-) JobUnselected: {'identifier': 'my_slam_toolbox'}
+[0.000732] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.000751] (-) JobUnselected: {'identifier': 'senson_pkg'}
+[0.000769] (-) JobUnselected: {'identifier': 'serial_pkg'}
+[0.000789] (base_driver_pkg) JobQueued: {'identifier': 'base_driver_pkg', 'dependencies': OrderedDict()}
+[0.000811] (base_driver_pkg) JobStarted: {'identifier': 'base_driver_pkg'}
+[0.009884] (base_driver_pkg) JobProgress: {'identifier': 'base_driver_pkg', 'progress': 'cmake'}
+[0.010476] (base_driver_pkg) JobProgress: {'identifier': 'base_driver_pkg', 'progress': 'build'}
+[0.011135] (base_driver_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lucas-fang/ros2_Nav_ws/build/base_driver_pkg', '--', '-j4', '-l4'], 'cwd': '/home/lucas-fang/ros2_Nav_ws/build/base_driver_pkg', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lucas-fang'), ('SSH_CLIENT', '192.168.70.195 51876 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/lucas-fang/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/lucas-fang/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lucas-fang'), ('OLDPWD', '/home/lucas-fang/ros2_Nav_ws/.git'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2dd16460-419e-4235-b863-2e2f41fc9593.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/lucas-fang/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/lucas-fang/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/lucas-fang/.vscode-server/extensions/ms-python.debugpy-2025.14.1/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lucas-fang/ros2_Nav_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lucas-fang'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lucas-fang/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/lucas-fang/.vscode-server/extensions/ms-python.debugpy-2025.14.1/bundled/scripts/noConfigScripts:/home/lucas-fang/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lucas-fang/.vscode-server/extensions/ms-python.debugpy-2025.14.1/.noConfigDebugAdapterEndpoints/endpoint-d67a174d51a1057f.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/lucas-fang/.vscode-server/data/User/workspaceStorage/47b21b766c4e2b89697148b3263902fc-1/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-71a3b954ea.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg:/home/lucas-fang/ros2_Nav_ws/install/senson_pkg:/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros:/home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox:/home/lucas-fang/ros2_Nav_ws/install/my_map_server:/home/lucas-fang/ros2_Nav_ws/install/localization_pkg:/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg:/opt/ros/humble'), ('CRASHDIR', '/etc/ShellCrash'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/lucas-fang/ros2_Nav_ws/build/base_driver_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.70.195 51876 192.168.70.123 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg:/home/lucas-fang/ros2_Nav_ws/install/senson_pkg:/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros:/home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox:/home/lucas-fang/ros2_Nav_ws/install/my_map_server:/home/lucas-fang/ros2_Nav_ws/install/localization_pkg:/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg:/opt/ros/humble')]), 'shell': False}
+[0.065659] (base_driver_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target odom_node\x1b[0m\n'}
+[0.067622] (base_driver_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pub_cmd_vel_to_classic\x1b[0m\n'}
+[0.067863] (base_driver_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target stm32_node\x1b[0m\n'}
+[0.091788] (base_driver_pkg) StdoutLine: {'line': b'[ 33%] Built target odom_node\n'}
+[0.098199] (base_driver_pkg) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/pub_cmd_vel_to_classic.dir/src/pub_cmd_vel_to_classic.cpp.o\x1b[0m\n'}
+[0.098462] (base_driver_pkg) StdoutLine: {'line': b'[ 83%] Built target stm32_node\n'}
+[0.099742] (-) TimerEvent: {}
+[0.200018] (-) TimerEvent: {}
+[0.300293] (-) TimerEvent: {}
+[0.400587] (-) TimerEvent: {}
+[0.503557] (-) TimerEvent: {}
+[0.603889] (-) TimerEvent: {}
+[0.704195] (-) TimerEvent: {}
+[0.804521] (-) TimerEvent: {}
+[0.904871] (-) TimerEvent: {}
+[1.005199] (-) TimerEvent: {}
+[1.105537] (-) TimerEvent: {}
+[1.205880] (-) TimerEvent: {}
+[1.306207] (-) TimerEvent: {}
+[1.406553] (-) TimerEvent: {}
+[1.506851] (-) TimerEvent: {}
+[1.607152] (-) TimerEvent: {}
+[1.707490] (-) TimerEvent: {}
+[1.807795] (-) TimerEvent: {}
+[1.908103] (-) TimerEvent: {}
+[2.008461] (-) TimerEvent: {}
+[2.108846] (-) TimerEvent: {}
+[2.209174] (-) TimerEvent: {}
+[2.309514] (-) TimerEvent: {}
+[2.409845] (-) TimerEvent: {}
+[2.510172] (-) TimerEvent: {}
+[2.610518] (-) TimerEvent: {}
+[2.710852] (-) TimerEvent: {}
+[2.811193] (-) TimerEvent: {}
+[2.911566] (-) TimerEvent: {}
+[3.011865] (-) TimerEvent: {}
+[3.112156] (-) TimerEvent: {}
+[3.212501] (-) TimerEvent: {}
+[3.312872] (-) TimerEvent: {}
+[3.413226] (-) TimerEvent: {}
+[3.513575] (-) TimerEvent: {}
+[3.613912] (-) TimerEvent: {}
+[3.714303] (-) TimerEvent: {}
+[3.814624] (-) TimerEvent: {}
+[3.914960] (-) TimerEvent: {}
+[4.015253] (-) TimerEvent: {}
+[4.115590] (-) TimerEvent: {}
+[4.215902] (-) TimerEvent: {}
+[4.316247] (-) TimerEvent: {}
+[4.416569] (-) TimerEvent: {}
+[4.516903] (-) TimerEvent: {}
+[4.617232] (-) TimerEvent: {}
+[4.717578] (-) TimerEvent: {}
+[4.817925] (-) TimerEvent: {}
+[4.918272] (-) TimerEvent: {}
+[5.018612] (-) TimerEvent: {}
+[5.118977] (-) TimerEvent: {}
+[5.219424] (-) TimerEvent: {}
+[5.319803] (-) TimerEvent: {}
+[5.420146] (-) TimerEvent: {}
+[5.520440] (-) TimerEvent: {}
+[5.620775] (-) TimerEvent: {}
+[5.721095] (-) TimerEvent: {}
+[5.821387] (-) TimerEvent: {}
+[5.921723] (-) TimerEvent: {}
+[6.022042] (-) TimerEvent: {}
+[6.122359] (-) TimerEvent: {}
+[6.222685] (-) TimerEvent: {}
+[6.322979] (-) TimerEvent: {}
+[6.423314] (-) TimerEvent: {}
+[6.523676] (-) TimerEvent: {}
+[6.623966] (-) TimerEvent: {}
+[6.724259] (-) TimerEvent: {}
+[6.824567] (-) TimerEvent: {}
+[6.924863] (-) TimerEvent: {}
+[7.025247] (-) TimerEvent: {}
+[7.125570] (-) TimerEvent: {}
+[7.225861] (-) TimerEvent: {}
+[7.326178] (-) TimerEvent: {}
+[7.426524] (-) TimerEvent: {}
+[7.526867] (-) TimerEvent: {}
+[7.627176] (-) TimerEvent: {}
+[7.727534] (-) TimerEvent: {}
+[7.827866] (-) TimerEvent: {}
+[7.928162] (-) TimerEvent: {}
+[8.028562] (-) TimerEvent: {}
+[8.128962] (-) TimerEvent: {}
+[8.210692] (base_driver_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pub_cmd_vel_to_classic\x1b[0m\n'}
+[8.229114] (-) TimerEvent: {}
+[8.329450] (-) TimerEvent: {}
+[8.429819] (-) TimerEvent: {}
+[8.530229] (-) TimerEvent: {}
+[8.630544] (-) TimerEvent: {}
+[8.665883] (base_driver_pkg) StdoutLine: {'line': b'[100%] Built target pub_cmd_vel_to_classic\n'}
+[8.676165] (base_driver_pkg) CommandEnded: {'returncode': 0}
+[8.676779] (base_driver_pkg) JobProgress: {'identifier': 'base_driver_pkg', 'progress': 'install'}
+[8.684565] (base_driver_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lucas-fang/ros2_Nav_ws/build/base_driver_pkg'], 'cwd': '/home/lucas-fang/ros2_Nav_ws/build/base_driver_pkg', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lucas-fang'), ('SSH_CLIENT', '192.168.70.195 51876 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/lucas-fang/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/lucas-fang/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/lucas-fang'), ('OLDPWD', '/home/lucas-fang/ros2_Nav_ws/.git'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2dd16460-419e-4235-b863-2e2f41fc9593.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/lucas-fang/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/lucas-fang/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/lucas-fang/.vscode-server/extensions/ms-python.debugpy-2025.14.1/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/lucas-fang/ros2_Nav_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lucas-fang'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/lucas-fang/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/lucas-fang/.vscode-server/extensions/ms-python.debugpy-2025.14.1/bundled/scripts/noConfigScripts:/home/lucas-fang/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/lucas-fang/.vscode-server/extensions/ms-python.debugpy-2025.14.1/.noConfigDebugAdapterEndpoints/endpoint-d67a174d51a1057f.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/lucas-fang/.vscode-server/data/User/workspaceStorage/47b21b766c4e2b89697148b3263902fc-1/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-71a3b954ea.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '42'), ('AMENT_PREFIX_PATH', '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg:/home/lucas-fang/ros2_Nav_ws/install/senson_pkg:/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros:/home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox:/home/lucas-fang/ros2_Nav_ws/install/my_map_server:/home/lucas-fang/ros2_Nav_ws/install/localization_pkg:/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg:/opt/ros/humble'), ('CRASHDIR', '/etc/ShellCrash'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/lucas-fang/ros2_Nav_ws/build/base_driver_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.70.195 51876 192.168.70.123 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lucas-fang/ros2_Nav_ws/install/serial_pkg:/home/lucas-fang/ros2_Nav_ws/install/senson_pkg:/home/lucas-fang/ros2_Nav_ws/install/rplidar_ros:/home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox:/home/lucas-fang/ros2_Nav_ws/install/my_map_server:/home/lucas-fang/ros2_Nav_ws/install/localization_pkg:/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg:/opt/ros/humble')]), 'shell': False}
+[8.692570] (base_driver_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.692920] (base_driver_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/lib/base_driver_pkg/stm32_node\n'}
+[8.693167] (base_driver_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/lib/base_driver_pkg/odom_node\n'}
+[8.693324] (base_driver_pkg) StdoutLine: {'line': b'-- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/lib/base_driver_pkg/pub_cmd_vel_to_classic\n'}
+[8.696920] (base_driver_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/lib/base_driver_pkg/pub_cmd_vel_to_classic" to ""\n'}
+[8.697139] (base_driver_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/launch\n'}
+[8.697222] (base_driver_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/launch/odom_launch.py\n'}
+[8.697298] (base_driver_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/ament_index/resource_index/package_run_dependencies/base_driver_pkg\n'}
+[8.697373] (base_driver_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/ament_index/resource_index/parent_prefix_path/base_driver_pkg\n'}
+[8.697446] (base_driver_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/environment/ament_prefix_path.sh\n'}
+[8.697584] (base_driver_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/environment/ament_prefix_path.dsv\n'}
+[8.697679] (base_driver_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/environment/path.sh\n'}
+[8.697749] (base_driver_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/environment/path.dsv\n'}
+[8.697817] (base_driver_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/local_setup.bash\n'}
+[8.697893] (base_driver_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/local_setup.sh\n'}
+[8.697965] (base_driver_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/local_setup.zsh\n'}
+[8.698037] (base_driver_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/local_setup.dsv\n'}
+[8.698108] (base_driver_pkg) StdoutLine: {'line': b'-- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/package.dsv\n'}
+[8.698179] (base_driver_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/ament_index/resource_index/packages/base_driver_pkg\n'}
+[8.698285] (base_driver_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/cmake/base_driver_pkgConfig.cmake\n'}
+[8.698387] (base_driver_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/cmake/base_driver_pkgConfig-version.cmake\n'}
+[8.698457] (base_driver_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/package.xml\n'}
+[8.699308] (base_driver_pkg) CommandEnded: {'returncode': 0}
+[8.718096] (base_driver_pkg) JobEnded: {'identifier': 'base_driver_pkg', 'rc': 0}
+[8.719538] (-) EventReactorShutdown: {}

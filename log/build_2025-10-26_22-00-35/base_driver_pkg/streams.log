@@ -1,0 +1,28 @@
+[0.018s] Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/base_driver_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/base_driver_pkg -- -j4 -l4
+[0.161s] [ 33%] Built target stm32_node
+[0.162s] [ 66%] Built target odom_node
+[0.164s] [100%] Built target pub_cmd_vel_to_classic
+[0.206s] Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/base_driver_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/base_driver_pkg -- -j4 -l4
+[0.206s] Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/base_driver_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/base_driver_pkg
+[0.218s] -- Install configuration: ""
+[0.219s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/lib/base_driver_pkg/stm32_node
+[0.219s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/lib/base_driver_pkg/odom_node
+[0.221s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/lib/base_driver_pkg/pub_cmd_vel_to_classic
+[0.226s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/launch
+[0.226s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/launch/odom_launch.py
+[0.226s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/ament_index/resource_index/package_run_dependencies/base_driver_pkg
+[0.226s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/ament_index/resource_index/parent_prefix_path/base_driver_pkg
+[0.226s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/environment/ament_prefix_path.sh
+[0.226s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/environment/ament_prefix_path.dsv
+[0.226s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/environment/path.sh
+[0.227s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/environment/path.dsv
+[0.227s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/local_setup.bash
+[0.227s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/local_setup.sh
+[0.227s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/local_setup.zsh
+[0.228s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/local_setup.dsv
+[0.228s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/package.dsv
+[0.229s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/ament_index/resource_index/packages/base_driver_pkg
+[0.229s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/cmake/base_driver_pkgConfig.cmake
+[0.229s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/cmake/base_driver_pkgConfig-version.cmake
+[0.229s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/base_driver_pkg/share/base_driver_pkg/package.xml
+[0.234s] Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/base_driver_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/base_driver_pkg

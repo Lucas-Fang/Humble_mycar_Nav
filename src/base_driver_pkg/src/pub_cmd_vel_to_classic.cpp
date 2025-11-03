@@ -1,7 +1,7 @@
 #include "rclcpp/rclcpp.hpp"
 #include "serial_driver/serial_driver.hpp"
 // #include <functional>
-#include <geometry_msgs/msg/detail/twist__struct.hpp>
+#include <geometry_msgs/msg/twist.hpp>
 // #include <limits>
 #include <rclcpp/subscription.hpp>
 #include <rclcpp/timer.hpp>
@@ -34,7 +34,7 @@ class Send_STM32: public rclcpp::Node
           serial_driver_ = std::make_shared<drivers::serial_driver::SerialDriver>(*io_context_);
           serial_driver_->init_port(device_name, config);
           serial_driver_->port()->open();
-          
+
           RCLCPP_INFO(this->get_logger(), "Serial port initialized successfully");
           RCLCPP_INFO(this->get_logger(), "Using device: %s", serial_driver_->port().get()->device_name().c_str());
           RCLCPP_INFO(this->get_logger(), "Baud_rate: %d", config.get_baud_rate());
@@ -55,32 +55,33 @@ class Send_STM32: public rclcpp::Node
     nav_x = msg->linear.x;
     nav_y = msg->linear.y;
     nav_omega = msg->angular.z;
-    // RCLCPP_INFO(this->get_logger(),"接收到的cmd_vel数据是： nav_x:%.2f , nav_y:%.2f , nav_omega:%.2f",
+    RCLCPP_INFO(this->get_logger(),"接收到的cmd_vel数据是： nav_x:%.2f , nav_y:%.2f , nav_omega:%.2f"
+        ,nav_x,nav_y,nav_omega);
   }
 
   void send_timer(){
     if (!serial_driver_ || !serial_driver_->port()->is_open()) return;
-    uint8_t send_buf[16];
+    uint8_t send_buf[19];
     send_buf[0]=0xA5;//帧头
     send_buf[1]=0x5A;
     send_buf[2]=12; //长度
     send_buf[3]=0;  //CMD
-    nav_x = 1.21;
-    nav_y = 2.13;
+    // nav_x = 1.21;
+    // nav_y = 2.13;
     std::memcpy(&send_buf[4], &nav_x, 4);
     std::memcpy(&send_buf[8], &nav_y, 4);
     std::memcpy(&send_buf[12], &nav_omega, 4);
-    uint8_t crc=0;
-    crc = CRC16_Check(send_buf,12);
-    send_buf[13]=crc>>8;
-    send_buf[14]=crc;
-    send_buf[15]=0xFF;
+    uint16_t crc=0;
+    crc = CRC16_Check(send_buf,send_buf[2]+4);
+    send_buf[16]=crc>>8;
+    send_buf[17]=crc;
+    send_buf[18]=0xFF;
 
-    std::vector<uint8_t> send_data(send_buf, send_buf + 16);
+    std::vector<uint8_t> send_data(send_buf, send_buf + 19);
     try{
         serial_driver_->port()->send(send_data);
-        // // RCLCPP_INFO(this->get_logger(),"发送数据： roll:%.2f , pitch:%.2f , yaw:%.2f",
-        // //     roll,pitch,yaw);
+        // RCLCPP_INFO(this->get_logger(),"发送数据： nav_x:%.2f , nav_y:%.2f , nav_omega:%.2f",
+        //     nav_x,nav_y,nav_omega);
         // std::ostringstream oss;
         // oss << std::hex << std::setfill('0');   // 设置十六进制和补零
 
@@ -93,7 +94,6 @@ class Send_STM32: public rclcpp::Node
           RCLCPP_ERROR(this->get_logger(), "Failed to send data: %s", ex.what());
           return;
         }
-    
   }
     uint16_t CRC16_Check(const uint8_t *data, uint8_t len)
     {
@@ -114,7 +114,6 @@ class Send_STM32: public rclcpp::Node
         }
         return CRC16;
     }
-
     std::shared_ptr<drivers::serial_driver::SerialDriver> serial_driver_;
     std::shared_ptr<drivers::common::IoContext> io_context_;
     rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr sub_cmdvel_;

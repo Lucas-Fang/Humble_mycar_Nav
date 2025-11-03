@@ -10,7 +10,7 @@ find_package(ament_cmake REQUIRED)
 find_package(navigation2 REQUIRED)
 find_package(nav2_common REQUIRED)
 
-install(DIRECTORY launch params bts
+install(DIRECTORY launch params bts config
   DESTINATION share/${PROJECT_NAME}
 )
 

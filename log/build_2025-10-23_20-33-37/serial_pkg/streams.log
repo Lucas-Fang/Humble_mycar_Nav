@@ -1,0 +1,76 @@
+[0.028s] Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg': AMENT_PREFIX_PATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/serial_pkg -- -j4 -l4
+[0.132s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.568s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.685s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.692s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.709s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.756s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.809s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.950s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.957s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.241s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.404s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.440s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.493s] -- Found serial_driver: 1.2.0 (/opt/ros/humble/share/serial_driver/cmake)
+[1.541s] -- Found asio_cmake_module: 1.2.0 (/opt/ros/humble/share/asio_cmake_module/cmake)
+[1.672s] -- Found tf2: 0.25.13 (/opt/ros/humble/share/tf2/cmake)
+[1.683s] -- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.976s] -- Found base_interfaces: 0.0.0 (/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/share/base_interfaces/cmake)
+[2.017s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.139s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.375s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.375s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/lucas-fang/ros2_Nav_ws/src/serial_pkg/include>
+[2.375s] -- Configured cppcheck exclude dirs and/or files: 
+[2.377s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.378s] -- Added test 'lint_cmake' to check CMake code style
+[2.383s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.384s] -- Added test 'uncrustify' to check C / C++ code style
+[2.385s] -- Configured uncrustify additional arguments: 
+[2.391s] -- Added test 'xmllint' to check XML markup files
+[2.391s] -- Configuring done
+[2.573s] -- Generating done
+[2.606s] -- Build files have been written to: /home/lucas-fang/ros2_Nav_ws/build/serial_pkg
+[2.684s] [35m[1mConsolidate compiler generated dependencies of target my_serial_lib[0m
+[2.702s] [35m[1mConsolidate compiler generated dependencies of target odom[0m
+[2.707s] [ 12%] [32mBuilding CXX object CMakeFiles/my_serial_lib.dir/src/crc16.cpp.o[0m
+[2.755s] [ 25%] [32mBuilding CXX object CMakeFiles/odom.dir/src/odom.cpp.o[0m
+[2.797s] [ 37%] [32m[1mLinking CXX static library libmy_serial_lib.a[0m
+[2.869s] [ 37%] Built target my_serial_lib
+[2.903s] [35m[1mConsolidate compiler generated dependencies of target chat_stm32[0m
+[2.915s] [35m[1mConsolidate compiler generated dependencies of target get_imu_ros2[0m
+[3.002s] [ 50%] [32mBuilding CXX object CMakeFiles/chat_stm32.dir/src/chat_stm32.cpp.o[0m
+[3.022s] [ 62%] [32mBuilding CXX object CMakeFiles/get_imu_ros2.dir/src/get_imu_ros2.cpp.o[0m
+[25.143s] [ 75%] [32m[1mLinking CXX executable get_imu_ros2[0m
+[26.324s] [ 75%] Built target get_imu_ros2
+[34.200s] [ 87%] [32m[1mLinking CXX executable chat_stm32[0m
+[34.888s] [ 87%] Built target chat_stm32
+[36.879s] [100%] [32m[1mLinking CXX executable odom[0m
+[37.650s] [100%] Built target odom
+[37.660s] Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg' returned '0': AMENT_PREFIX_PATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/serial_pkg -- -j4 -l4
+[37.661s] Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg': AMENT_PREFIX_PATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/serial_pkg
+[37.669s] -- Install configuration: ""
+[37.669s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/libmy_serial_lib.a
+[37.670s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/get_imu_ros2
+[37.671s] -- Set runtime path of "/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/get_imu_ros2" to ""
+[37.672s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/odom
+[37.677s] -- Set runtime path of "/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/odom" to ""
+[37.678s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/chat_stm32
+[37.682s] -- Set runtime path of "/home/lucas-fang/ros2_Nav_ws/install/serial_pkg/lib/serial_pkg/chat_stm32" to ""
+[37.682s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/launch
+[37.682s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/launch/odom_launch.py
+[37.682s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/ament_index/resource_index/package_run_dependencies/serial_pkg
+[37.682s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/ament_index/resource_index/parent_prefix_path/serial_pkg
+[37.682s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/environment/ament_prefix_path.sh
+[37.683s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/environment/ament_prefix_path.dsv
+[37.683s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/environment/path.sh
+[37.683s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/environment/path.dsv
+[37.683s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/local_setup.bash
+[37.684s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/local_setup.sh
+[37.684s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/local_setup.zsh
+[37.684s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/local_setup.dsv
+[37.684s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/package.dsv
+[37.684s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/ament_index/resource_index/packages/serial_pkg
+[37.684s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/cmake/serial_pkgConfig.cmake
+[37.685s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/cmake/serial_pkgConfig-version.cmake
+[37.685s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/serial_pkg/share/serial_pkg/package.xml
+[37.687s] Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/serial_pkg' returned '0': AMENT_PREFIX_PATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lucas-fang/ros2_Nav_ws/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/serial_pkg

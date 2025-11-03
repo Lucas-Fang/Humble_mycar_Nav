@@ -1,0 +1,24 @@
+[0.032s] Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/my_slam_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/my_slam_toolbox -- -j4 -l4
+[0.105s] Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/my_slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lucas-fang/ros2_Nav_ws/build/my_slam_toolbox -- -j4 -l4
+[0.116s] Invoking command in '/home/lucas-fang/ros2_Nav_ws/build/my_slam_toolbox': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/my_slam_toolbox
+[0.136s] -- Install configuration: ""
+[0.136s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/launch
+[0.136s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/launch/online_sync_launch.py
+[0.136s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/params
+[0.136s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/params/mapper_params_online_sync.yaml
+[0.136s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/ament_index/resource_index/package_run_dependencies/my_slam_toolbox
+[0.136s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/ament_index/resource_index/parent_prefix_path/my_slam_toolbox
+[0.137s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/environment/ament_prefix_path.sh
+[0.137s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/environment/ament_prefix_path.dsv
+[0.137s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/environment/path.sh
+[0.137s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/environment/path.dsv
+[0.137s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/local_setup.bash
+[0.137s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/local_setup.sh
+[0.137s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/local_setup.zsh
+[0.137s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/local_setup.dsv
+[0.137s] -- Installing: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/package.dsv
+[0.139s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/ament_index/resource_index/packages/my_slam_toolbox
+[0.139s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/cmake/my_slam_toolboxConfig.cmake
+[0.139s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/cmake/my_slam_toolboxConfig-version.cmake
+[0.139s] -- Up-to-date: /home/lucas-fang/ros2_Nav_ws/install/my_slam_toolbox/share/my_slam_toolbox/package.xml
+[0.180s] Invoked command in '/home/lucas-fang/ros2_Nav_ws/build/my_slam_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lucas-fang/ros2_Nav_ws/build/my_slam_toolbox

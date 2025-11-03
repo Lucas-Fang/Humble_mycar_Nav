@@ -1293,6 +1293,12 @@ CMakeFiles/pub_cmd_vel_to_classic.dir/src/pub_cmd_vel_to_classic.cpp.o
  /usr/include/asio/write_at.hpp
  /usr/include/asio/impl/write_at.hpp
  /opt/ros/humble/include/serial_driver/serial_port.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
 
